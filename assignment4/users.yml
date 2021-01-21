@@ -1,0 +1,38 @@
+---
+- name: Create users
+  remote_user: despair
+  become: yes
+  hosts: all
+  vars_files:
+    - locker.yml
+    - user_list.yml
+  tasks:
+    - name: Create group devops
+      group: 
+        name: devops
+        state: present
+    - name: Create group opsmgr
+      group: 
+        name: opsmgr
+        state: present
+    - name: Create users - Devs
+      user:
+        name: "{{ item.name }}"
+        comment: Dev created by despair
+        password: "{{ pw_developer | password_hash('sha512') }}"
+        groups: devops
+      loop: "{{ users }}"
+      when: 
+        - ansible_hostname in groups['dev'] or ansible_hostname in groups['test']
+        - item.job == 'developer'
+    - name: Create users - Mgrs
+      user:
+        name: "{{ item.name }}"
+        comment: Manager created by despair
+        password: "{{ pw_manager | password_hash('sha512') }}"
+        groups: opsmgr
+      loop: "{{ users }}"
+      when: 
+        - ansible_hostname in groups['prod']
+        - item.job == 'manager'
+

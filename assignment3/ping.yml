@@ -1,0 +1,19 @@
+---
+- name: Q6 Tags functionality
+  remote_user: despair
+  become: yes
+  hosts: all
+  tasks:
+  - name: Tag1 task
+    copy:
+      dest: /tmp/tag1.html
+      content: I am tag1 revised
+    when: ansible_host == 'servera' or ansible_host == 'serverc'
+    tags: tag1
+  - name: Tag2 task
+    copy:
+      dest: /tmp/tag2.html
+      content: I am tag2 revised
+    when: ansible_host == 'serverb' or ansible_host == 'serverd'
+    tags: tag2
+...

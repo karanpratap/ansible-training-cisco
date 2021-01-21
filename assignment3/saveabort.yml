@@ -1,0 +1,11 @@
+---
+- name: Q8 SaveAbort
+  hosts: servera
+  remote_user: despair
+  become: yes
+  tasks:
+  - name: create file
+    copy:
+      dest: /etc/saveabort_kps.txt
+      content: I am there
+...

@@ -1,0 +1,31 @@
+---
+- name: Q10 Hardware report
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+  - name: Get empty hardware report file
+    get_url:
+      dest: /root/hwreport.txt
+      url: http://content.example.com/files/hwreport.empty
+      force: yes
+  - replace:
+      path: /root/hwreport.txt
+      regexp: 'inventoryhostname'
+      replace: "{{ ansible_hostname }}"
+  - replace:
+      path: /root/hwreport.txt
+      regexp: 'total_memory'
+      replace: "{{ ansible_memtotal_mb }} MB"
+  - replace:
+      path: /root/hwreport.txt
+      regexp: 'bios_version'
+      replace: "{{ ansible_bios_version }}"
+  - replace:
+      path: /root/hwreport.txt
+      regexp: 'ansible_vda_size'
+      replace: "{{ ansible_devices.vda.size }}"
+  - replace:
+      path: /root/hwreport.txt
+      regexp: 'ansible_vdb_size'
+      replace: "{{ ansible_hostname }}"

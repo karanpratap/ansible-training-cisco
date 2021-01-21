@@ -1,0 +1,6 @@
+- name: Role demo
+  remote_user: despair
+  become: yes
+  hosts: webservers
+  roles:
+    - webserver

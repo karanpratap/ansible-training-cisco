@@ -1,0 +1,17 @@
+---
+- name: Q7 Block and rescue
+  hosts: prod
+  remote_user: despair
+  become: yes
+  tasks:
+  - block:
+    - name: Get the file
+      get_url:
+        dest: /var/www/html/access.html
+        url: http://content.example.com/access.html
+        force: yes
+    rescue:
+      - copy:
+          dest: /var/www/html/access.html
+          content: I am not accessible
+...

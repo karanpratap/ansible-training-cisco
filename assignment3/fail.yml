@@ -1,0 +1,30 @@
+---
+- name: Q9 Fail and debug
+  hosts: prod
+  remote_user: despair
+  become: yes
+  tasks:
+  - block:
+    - name: Install Service
+      yum:
+        name: dummy
+        state: latest
+      register: install
+      ignore_errors: yes
+    - name: Start Service
+      service:
+        name: dummy
+        state: started
+      register: srv
+    rescue:
+      - debug:
+          msg: Installation failed
+        when: install.failed == true
+      - debug:
+          msg: Service failed
+        when: srv.failed == true
+    always:
+      - debug:
+          msg: Playbook was unsuccessful
+        when: srv.failed == true or install.failed == true
+...
