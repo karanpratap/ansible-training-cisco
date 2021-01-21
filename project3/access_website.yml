@@ -1,0 +1,17 @@
+---
+- name: Check web access
+  hosts: servera
+  tasks:
+    - name: Access website
+      uri:
+        url: http://content.example.com/index.html1
+      register: a
+      ignore_errors: yes
+    - name: Website is accessible
+      debug:
+        msg: accessible
+      when: a.status == 200
+    - name: Website is not accessible
+      debug:
+        msg: not accessible
+      when: a.status != 200

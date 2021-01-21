@@ -1,0 +1,48 @@
+---
+- name: To configure WebServers
+  hosts: prod
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Install Web Package
+      yum:
+        name: httpd
+        state: latest
+    - name: Start httpd, if not started
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+    - name: Firewall configuration for http service
+      firewalld:
+        service: http
+        permanent: yes
+        immediate: yes
+        state: enabled
+    - name: Create home page
+      copy:
+        dest: /var/www/html/index.html
+        content: "Bow and repent"
+- name: Configure database server
+  hosts: database
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Install Maria DB
+      yum:
+        name:
+          - mariadb
+          - mariadb-server
+        state: latest
+    - name: Start mariadb, if not started
+      service:
+        name: mariadb
+        state: started
+        enabled: yes
+    - name: Firewall configuration for http service
+      firewalld:
+        service: mysql
+        permanent: yes
+        immediate: yes
+        state: enabled
+...

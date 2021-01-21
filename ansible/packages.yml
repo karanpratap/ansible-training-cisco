@@ -1,0 +1,21 @@
+---
+- name: Install Packages
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Install php and mariadb
+      yum:
+        name: php,mariadb
+        state: latest
+      when: inventory_hostname in groups['dev'] or inventory_hostname in groups['test'] or inventory_hostname in groups['prod']
+    - name: Install Development Tools
+      yum:
+        name: '@Development tools'
+        state: present
+      when: inventory_hostname in groups['dev']
+    - name: Update all packages on dev
+      yum:
+        name: '*'
+        state: latest
+...

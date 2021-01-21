@@ -1,0 +1,30 @@
+---
+- name: Rescue Demonstration
+  hosts: servera
+  remote_user: despair
+  become: yes
+  tasks:
+  - block:
+    - name: Install a pkg
+      yum:
+        name: pkg
+        state: present
+      register: install
+      ignore_errors: yes
+    - name: start a service
+      service: 
+        name: sshd
+        state: started
+      register: srv
+    rescue:
+    - debug:
+        msg: Install fail
+      when: install.failed == true
+    - debug:
+        msg: srv failed
+      when: srv.failed == true
+    always:
+    - debug:
+        msg: playbook failed
+      when: install.failed == true or srv.failed == true
+...

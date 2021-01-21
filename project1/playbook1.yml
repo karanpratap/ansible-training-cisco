@@ -1,0 +1,15 @@
+---
+- name: To test My skills
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+          - name: Create a file with content
+            copy:
+                    content: "The vertigo of the looming end. [Created using playbook_1]"
+                    dest: /var/tmp/kps_file
+          - name: Delete a file
+            file:
+                    path: /var/tmp/inventory_kps
+                    state: absent
+...

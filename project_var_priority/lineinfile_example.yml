@@ -1,0 +1,11 @@
+---
+- name: using lineinfile module
+  hosts: prod
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: replace or insert a line
+      lineinfile:
+        path: /var/www/html/index.html
+        regexp: '^DONE'
+        line: DONE - only with insertbefore though

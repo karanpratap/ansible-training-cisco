@@ -1,0 +1,25 @@
+---
+- name: using lineinfile module
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: replace or insert a line
+      lineinfile:
+        path: /tmp/users.txt
+        line: Karan Pratap Singh
+        create: yes
+- name: Restrict
+  hosts: serverf
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Not enable root login
+      lineinfile:
+        path: /etc/ssh/sshd_config
+        regexp: '^PermitRootLogin'
+        line: PermitRootLogin no
+    - name: restart ssh
+      service:
+        name: sshd
+        state: restarted

@@ -1,0 +1,25 @@
+servera
+serverb
+serverc
+serverd
+servere
+serverf
+
+[dev]
+servera pkg=postfix
+
+[test]
+serverb
+
+[prod]
+servera
+serverc
+
+[balancers]
+serverd
+
+[webservers:children]
+prod
+
+[prod:vars]
+pkg=nfs-utils

@@ -1,0 +1,13 @@
+---
+- name: using lineinfile module
+  hosts: prod
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: replace or insert a line
+      blockinfile:
+        path: /tmp/multi.txt
+        block: |
+          line1
+          lin2
+          lin3

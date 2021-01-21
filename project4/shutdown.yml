@@ -1,0 +1,12 @@
+---
+- name: Stop service httpd
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Do it
+      service:
+        name: httpd
+        state: stopped
+      when: ansible_hostname == 'serverb' or ansible_hostname == 'serverc'
+...

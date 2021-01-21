@@ -1,0 +1,22 @@
+---
+- name: Change /etc/issue content
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Dev
+      copy:
+        dest: /etc/issue
+        content: 'Mirth and hearth [Dev]'
+      when: inventory_hostname in groups['dev']
+    - name: Test
+      copy:
+        dest: /etc/issue
+        content: 'Mirth and hearth [Test]'
+      when: inventory_hostname in groups['test']
+    - name: Prod
+      copy:
+        dest: /etc/issue
+        content: 'Mirth and hearth [Prod]'
+      when: inventory_hostname in groups['prod']
+...

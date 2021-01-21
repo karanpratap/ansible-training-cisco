@@ -1,0 +1,11 @@
+---
+- name: Check file status
+  hosts: servera
+  tasks:
+    - name: Check access to file
+      stat:
+        path: /etc/passwd1
+      register: status
+    - name: File is present or not
+      debug:
+        msg: File exists {{ status.stat.exists }}

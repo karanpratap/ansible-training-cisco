@@ -1,0 +1,15 @@
+---
+- name: print vars
+  hosts: all
+  remote_user: despair
+  become: yes
+  vars:
+    users:
+      despair:
+        first_name: KP
+        last_name: S
+        home_dir: /home/despair
+  tasks:
+    - name: print the values
+      debug:
+        msg: "{{users['despair']['home_dir']}}"

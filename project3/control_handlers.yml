@@ -1,0 +1,46 @@
+---
+- name: Set up production env
+  hosts: prod
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Check installed packages
+      yum:
+        name:
+          - httpd
+          - php
+          - php-mysqlnd
+          - mariadb-server
+          - firewalld
+        state: latest
+    - name: start firewalld service and enable it
+      service:
+        name: "{{item}}"
+        state: started
+        enabled: yes
+      loop:
+        - firewalld
+        - httpd
+        - mariadb
+    - name: Config firewalld to allow connections to httpd ports
+      firewalld:
+        service: http
+        state: enabled
+        permanent: yes
+        immediate: yes
+    - name: Create webpage content using copy module
+      copy:
+        dest: /var/www/html/index.html
+        src: mypage.html
+      notify: restart webserver
+  handlers:
+    - name: restart webserver
+      service:
+        name: httpd
+        state: restarted
+    - name: restart db
+      service:
+        name: mariadb
+        state: restarted
+      listen: restart webserver
+...

@@ -1,0 +1,42 @@
+---
+- name: Set up production env
+  hosts: prod
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Check installed packages
+      yum:
+        name:
+          - httpd
+          - php
+          - php-mysqlnd
+          - mariadb-server
+          - firewalld
+        state: latest
+    - name: start firewalld service and enable it
+      service:
+        name: "{{item}}"
+        state: started
+        enabled: yes
+      loop:
+        - firewalld
+        - httpd
+        - mariadb
+    - name: Config firewalld to allow connections to httpd ports
+      firewalld:
+        service: http
+        state: enabled
+        permanent: yes
+        immediate: yes
+    - name: Download the html file
+      command: wget -O /tmp/index.html.j2 http://content.example.com/files/index.html.j2
+    - name: fetch file to control
+      fetch:
+        src: /tmp/index.html.j2
+        dest: index.html.j2
+      command: wget -O /tmp/index.html.j2 http://content.example.com/files/index.html.j2
+    - name: Use Template
+      template:
+        dest: /var/www/html/index.html
+        src: index.html.j2
+...

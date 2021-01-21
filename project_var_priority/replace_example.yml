@@ -1,0 +1,11 @@
+---
+- name: using lineinfile module
+  hosts: prod
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: find and replace
+      replace:
+        path: /tmp/multi.txt
+        regexp: '^here'
+        replace: WHAT

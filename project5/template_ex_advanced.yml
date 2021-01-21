@@ -1,0 +1,25 @@
+---
+- name: config
+  hosts: prod
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: create a document root
+      file:
+        path: /var/www/cisco
+        state: directory
+    - name: create homepage
+      copy:
+        dest: /var/www/cisco/index.html
+        content: created using jinja template
+    - name: create custom config file
+      template:
+        src: webserver.conf.j2
+        dest: /etc/httpd/conf.d/webserver.conf
+      notify: restart httpd
+  handlers:
+    - name: restart httpd
+      service: 
+        name: httpd
+        state: restarted
+

@@ -1,0 +1,25 @@
+---
+- name: Create users
+  remote_user: despair
+  become: yes
+  hosts: all
+  vars_files:
+    - passfile.yml
+  tasks:
+    - name: Create a group
+      group: 
+        name: cerebral_group
+        state: present
+    - name: Create spawns 1
+      user:
+        name: despair_spawn1
+        comment: User created by KPS
+        password: "{{ pass1 | password_hash('sha512') }}"
+        groups: cerebral_group
+    - name: Create spawns 2 
+      user:
+        name: despair_spawn
+        comment: User created by KPS
+        password: "{{ pass2 | password_hash('sha512') }}"
+        groups: cerebral_group
+

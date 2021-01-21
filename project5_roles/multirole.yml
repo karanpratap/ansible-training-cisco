@@ -1,0 +1,15 @@
+---
+- name: using apache role
+  hosts: webservers
+  remote_user: despair
+  become: yes
+  tasks:
+  - name: Balancers
+    include_role:
+      name: balancer
+    when: inventory_hostname in groups['balancers']
+  - name: phpinfo
+    include_role:
+      name: phpinfo
+    when: inventory_hostname in groups['prod']
+

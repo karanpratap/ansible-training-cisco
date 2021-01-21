@@ -1,0 +1,11 @@
+---
+- name: Create hosts file on all servers
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Do it
+      template:
+        src: hosts.j2
+        dest: /etc/kps_hosts
+      when: ansible_hostname in groups['dev']

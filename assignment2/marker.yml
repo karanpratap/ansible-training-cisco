@@ -1,0 +1,17 @@
+---
+- name: Playbook demonstrating blockinfile usage
+  hosts: test
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Add content using blockinfile
+      blockinfile:
+        path: /tmp/mydespair.txt
+        create: yes
+        block: |
+          Ansible
+          Idempotent
+          Agent-less
+          Free
+          Open-Source
+...

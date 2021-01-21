@@ -1,0 +1,15 @@
+---
+- name: Install Packages
+  hosts: prod
+  remote_user: despair
+  become: yes
+  vars:
+    pkg: vim
+  vars_files:
+    - external_vars.yml
+  tasks:
+    - name: Install {{pkg}}
+      yum:
+        name: "{{pkg}}"
+        state: latest
+...

@@ -1,0 +1,23 @@
+---
+- name: backup
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Do it - prod
+      synchronize:
+        src: /var/www/html
+        dest: /var/tmp/despair_prod
+        recursive: yes
+        archive: yes
+      tags: prod
+      when: inventory_hostname in groups['prod']
+    - name: Do it - dev
+      synchronize:
+        src: /var/log/audit
+        dest: /var/tmp/despair_dev
+        recursive: yes
+        archive: yes
+      tags: dev
+      when: inventory_hostname in groups['dev']
+...

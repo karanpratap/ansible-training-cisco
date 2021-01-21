@@ -1,0 +1,11 @@
+---
+- name: Set up production env
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+    - name: Collect system info for all hosts
+      template:
+        dest: /root/hostinfo_despair.txt
+        src: sysinfo.j2
+...

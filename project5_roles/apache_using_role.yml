@@ -1,0 +1,7 @@
+---
+- name: using apache role
+  hosts: webservers
+  remote_user: despair
+  become: yes
+  roles:
+    - apache
