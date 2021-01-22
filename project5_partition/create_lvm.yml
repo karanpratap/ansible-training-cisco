@@ -1,0 +1,41 @@
+---
+- name: create_lvm
+  hosts: all
+  remote_user: despair
+  become: yes
+  tasks:
+    - parted:
+        device: /dev/vdb
+        number: 1
+        flags: [ lvm ]
+        state: present
+        part_end: 800MiB
+      when: ansible_hostname in groups['prod']
+    - name: Create LVM --> Create a vg and create lv; phy extent size 4MB default
+      lvg:
+        vg: prod_vg
+        pvs: /dev/vdb1
+      when: ansible_devices.vdb.partitions.vdb1 is defined
+    - name: Create logical vol 500m
+      lvol:
+        vg: prod_vg
+        lv: despair2
+        size: 500m
+      when: ansible_lvm.vgs.prod_vg is defined and ansible_lvm.vgs.prod_vg.free_g > '500'
+    - name: Write fs
+      filesystem:
+        dev: /dev/prod_vg/despair1
+        fstype: ext4
+      when: ansible_lvm.vgs.prod_vg is defined
+    - name: create mount point
+      file:
+        path: /mnt/vol1
+        state: directory
+      when: ansible_hostname in groups['prod']
+    - name: Mount
+      mount:
+        path: /mnt/vol1
+        src: /dev/prod_vg/despair1
+        fstype: ext4
+        state: mounted
+      when: ansible_hostname in groups['prod']
