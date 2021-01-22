@@ -1,1000 +1,1000 @@
-   12  su - ansible
-   13  cd ansi
-   14  su - ansi
-   15  su - priya
-   16  vim account.sh
-   17  su - priya
-   18  su - gvs
-   19  ssh serverf
-   20  su - gvs
-   21  ssh-copy-id Adarsh@servera.lab.example.com
-   22  su - Adarsh 
-   23  su - ansi
-   24  sudo - anviksha 
-   25  su - anviksha 
-   26  su - venkat 
-   27  su - anviksha 
-   28  su 
-   29  /end
-   30  /eof
-   31  exit
-   32  su - despair
-   33  su - despair
-   34  su - gvs
-   35  su - venkat 
-   36  useradd test
-   37  cp /home/venkat/project1/inventory /home/test
-   38  su - test
-   39  chown test. /home/test/inventory 
-   40  su - test
-   41  cp /home/test/inventory /home/student/
-   42  chown student. /home/student/inventory 
-   43  su - student
-   44  su - test
-   45  su - venkat 
-   46  su - priya
-   47  ll
-   48  cat account.sh 
-   49  vim account.sh 
-   50  cat account.sh 
-   51  ssh root@serverc
-   52  ssh root@serverd
-   53  ssh root@servere
-   54  ssh root@serverf
-   55  su - priya
-   56  w
-   57  ll
-   58  su - venkat
-   59  su - abhi
-   60  su - venkat
-   61  su - abhi
-   62  su - venkat
-   63  su - venkat
-   64  ssh servera
-   65  cat /etc/passwd
-   66  ls -al .ssh/
-   67  rm -f .ssh/id_rsa
-   68  rm -f .ssh/id_rsa.pub
-   69  history
-   70  su - sushmanaa
-   71  ssh ansible@servera
-   72  su - sushmanaa
-   73  su - venkat
-   74  su - sushmanaa
-   75  yum install ansible -y
-   76  ansible --version
-   77  sudo su sushmanaa
-   78  su - venkat
-   79  su - sushmanaa
-   80  su - Adarsh 
-   81  su - susritha
-   82  su - Adarsh 
-   83  su - abhi
-   84  su - abhi
-   85  su -rohit
-   86  su - rohit
-   87  ls
-   88  su - venkat 
-   89  su - rohit
-   90  echo rohit123 | passwd --stdin rohit
-   91  su - rohit
-   92  useradd -G wheel rohit
-   93  ls
-   94  cat myscript.sh 
-   95  cat user.sh 
-   96  cat createuser.sh 
-   97  vim acc.sh 
-   98  ls
-   99  ssh root@serverc
-  100  ssh root@servera
-  101  ssh root@serverb
-  102  ssh root@serverd
-  103  ssh root@servere
-  104  ssh root@serverf
-  105  su - rohit
-  106  id rohit
-  107  su - rohit
-  108  su - venkat
-  109  su - rohit
-  110  su - venkat 
-  111  su - venkat
-  112  cd raghav/
-  113  ll
-  114  vim managed_node
-  115  ansible-playbook host-lists
-  116  ansible-playbook --help
-  117  ansible-playbook --list-hosts
-  118  ansible-playbook --list-hosts -i /root/raghav/managed_node 
-  119  su - raghav
-  120  cd ..
-  121  mv raghav/ /home/raghav/
-  122  su - raghav
-  123  history
-  124  ll /home/
-  125  su - venkat
-  126  ll /home/
-  127  useradd udit
-  128  ll /home/
-  129  ll /home/udit/
-  130  ll /home/susritha/
-  131  su - udit
-  132  vim newuser.sh
-  133  cat newuser.sh
-  134  ssh root@servera
-  135  ssh root@serverb
-  136  ssh root@serverc
-  137  ssh root@serverd
-  138  ssh root@servere
-  139  ssh root@serverf
-  140  user add trial
-  141  - user add trial
-  142  - useradd trial
-  143  useradd trial
-  144  su trial
-  145  su - anviksha 
-  146  sudo su venkat 
-  147  sudo su anviksha 
-  148  su - raghav
-  149  ssh serverf
-  150  su - raghav
-  151  su trial
-  152  su - abhi
-  153  exit
-  154  su - abhi
-  155  exit
-  156  su - anviksha 
-  157  su - venkat
-  158  su - anviksha 
-  159  su - priya
-  160  ls
-  161  su - priya
-  162  ls
-  163  cd ansible
-  164  su - priya
-  165  su - gvs
-  166  ls
-  167  su - Venkat
-  168  ls
-  169  su - venkat
-  170  su - priya
-  171  ssh-keygen
-  172  ssh-copy-id trial@servera.lab.example.com
-  173  ssh-copy-id trial@serverb.lab.example.com
-  174  ssh-copy-id trial@serverc.lab.example.com
-  175  ssh-copy-id trial@serverd.lab.example.com
-  176  ssh-copy-id trial@servere.lab.example.com
-  177  ssh-copy-id trial@serverf.lab.example.com
-  178  ssh servera
-  179  ssh serverb
-  180  ssh serverc
-  181  ssh serverd
-  182  ssh servere
-  183  ssh serverf
-  184  yum install ansible -y
-  185  ansible --version
-  186  su trial
-  187  w
-  188  tree /home/
-  189  su - priya
-  190  ansible --version
-  191  su - venkat 
-  192  cp /home/priya/ansible/daya2.yml /home/venkat/project2/
-  193  cp /home/priya/ansible/day1a2.yml /home/venkat/project2/
-  194  cd /home/venkat/project2/
-  195  ll
-  196  chown venkat. *
-  197  ll
-  198  su - despair
-  199  su - trial
-  200  su priya
-  201  su - priya
-  202  su - trial
-  203  su - susritha
-  204  su - aadarsh
-  205  su - adarsh
-  206  su - Adarsh
-  207  su - susritha
-  208  su - priya
-  209  su - sushmanaa
-  210  su - priya
-  211  su - sushmanaa
-  212  priya
-  213  su - priya
-  214  su - sushmanaa
-  215  su - venkat
-  216  cd priya
-  217  su - priya
-  218  su - anviksha
-  219  su - venkat 
-  220  su - anviksha
-  221  history
-  222  tree
-  223  history
-  224  su - anviksha
-  225  su - venkat
-  226  ls
-  227  su - venkatat
-  228  su - venkat
-  229  su - priya
-  230  su - venkat
-  231  ls
-  232  cd project2
-  233  su - venkat
-  234  su - raghav
-  235  su - Adarsh 
-  236  su - venkat 
-  237  su - susritha
-  238  ls
-  239  cat acc.sh 
-  240  ls
-  241  su - rohit
-  242  su - venkat
-  243  su - sushmanaa
-  244  su - venkat
-  245  su - sushmanaa
-  246  su - venkat
-  247  ls
-  248  su -sushmanaa
-  249  su - sushmanaa
-  250  su - venkat
-  251  su - sushmanaa
-  252  hostory
-  253  history
-  254  ssh-keygen
-  255  ssh-copy-id trial@servera.lab.example.com
-  256  history
-  257  ssh-copy-id sushmanaa@servera.lab.example.com
-  258  ls
-  259  su - sushmanaa
-  260  su - venkat
-  261  su - sushmanaa
-  262  history
-  263  ssh-copy-id sushmanaa@servera.lab.example.com
-  264  ssh-copy-id sushmanaa@serverb.lab.example.com
-  265  ssh-copy-id sushmanaa@serverc.lab.example.com
-  266  ssh-copy-id sushmanaa@serverd.lab.example.com
-  267  ssh-copy-id sushmanaa@servere.lab.example.com
-  268  ssh-copy-id sushmanaa@serverf.lab.example.com
-  269  su - sushmanaa
-  270  ping serverb
-  271  ping servera
-  272  cd project2
-  273  su - sushmanaa
-  274  su - venkat
-  275  su - sushmanaa
-  276  su - trial
-  277  su - venkat
-  278  su - trial
-  279  su - shasd
-  280  su -venkat
-  281  su - venkat
+    1  cd ..
+    2  cd project_var_priority/
+    3  ls
+    4  vim variable_print.yml 
+    5  cp add_restrict.yml ../assignment2/
+    6  cd ../assignment2/
+    7  ls
+    8  rm stack.yml 
+    9  mv add_restrict.yml stack.yml
+   10  vim stack.yml 
+   11  vim marker.yml
+   12  vim stack.yml 
+   13  cp ../project_var_priority/blockinfile.yml .
+   14  ls
+   15  mv blockinfile.yml marker.yml 
+   16  vim marker.yml
+   17  vim stack.yml 
+   18  vim marker.yml
+   19  ansible-playbook marker.yml 
+   20  vim marker.yml
+   21  ansible-playbook marker.yml 
+   22  ansible serverb -a 'cat /tmp/mydespair.txt'
+   23  ansible-playbook stack.yml 
+   24  vim stack.yml 
+   25  ansible-playbook stack.yml 
+   26  vim stack.yml 
+   27  ansible-playbook stack.yml 
+   28  curl serverb
+   29  ansible-doc yum
+   30  ansible-doc service
+   31  cd project1/
+   32  ls
+   33  vim playbook
+   34  vim playbook1.yml 
+   35  vim playbook2.yml 
+   36  cd ..
+   37  l
+   38  ls
+   39  cd project_var_priority/
+   40  ls
+   41  vim lineinfile_example.yml 
+   42  ls
+   43  cd assignment2/
+   44  ls
+   45  vim stack.yml 
+   46  cat stack.yml 
+   47  vim ~/.vimrc
+   48  vim stack.yml 
+   49  vim ~/.vimrc
+   50  cat /etc/os-release 
+   51  cat /etc/os-release | grep NAME
+   52  ansible prod -a 'cat /var/www/html/index.html'
+   53  cd ..
+   54  ls
+   55  ls -l project3/
+   56  cp -r project2/ project3/
+   57  cd project3/
+   58  ls
+   59  cd project2/
+   60  ls
+   61  cp * ..
+   62  ls
+   63  cd ..
+   64  ls
+   65  rm -r project2/
+   66  cp ../assignment2/stack.yml .
+   67  mv stack.yml mod_copy_ex1.yml
+   68  vim mod_copy_ex1.yml 
+   69  curl serverb
+   70  vim mi
+   71  vim mod_copy_ex1.yml 
+   72  vim mypage.html
+   73  ansible-playbook mod_copy_ex1.yml 
+   74  curl serverc
+   75  ansible-playbook mod_copy_ex1.yml 
+   76  curl serverc
+   77  curl serverb
+   78  cp mod_copy_ex1.yml mod_get_url_ex1.yml
+   79  vim mod_get_url_ex1.yml
+   80  ansible-playbook mod_get_url_ex1.yml 
+   81  vim mod_get_url_ex1.yml
+   82  ansible-playbook mod_get_url_ex1.yml 
+   83  vim mod_get_url_ex1.yml
+   84  ansible-playbook mod_get_url_ex1.yml 
+   85  vim mod_get_url_ex1.yml
+   86  ansible-playbook mod_get_url_ex1.yml 
+   87  curl serverc
+   88  vim mod_get_url_ex1.yml
+   89  ansible-playbook mod_get_url_ex1.yml 
+   90  curl serverc
+   91  curl serverb
+   92  ansible-playbook mod_get_url_ex1.yml 
+   93  curl serverb
+   94  curl serverc
+   95  vim mod_get_url_ex1.yml
+   96  ansible-playbook mod_get_url_ex1.yml 
+   97  vim mod_get_url_ex1.yml
+   98  ansible-playbook mod_get_url_ex1.yml 
+   99  vim mod_get_url_ex1.yml
+  100  ansible-playbook mod_get_url_ex1.yml 
+  101  cp mod_get_url_ex1.yml template_example1.yml
+  102  vim myfile.html.j2
+  103  vim template_example1.yml 
+  104  ansible-playbook template_example1.yml 
+  105  curl serverb
+  106  curl serverc
+  107  cp template_example1.yml template_example2.yml
+  108  vi template_example2.yml
+  109  ansible-playbook template_example2.yml 
+  110  vi template_example2.yml
+  111  ansible-playbook template_example2.yml 
+  112  ansible-playbook template_example2.yml -C -v
+  113  vim template_example2.yml
+  114  ansible-playbook template_example2.yml -C -v
+  115  vim template_example2.yml
+  116  ansible-doc fetch
+  117  vim template_example2.yml
+  118  ansible serverb -m setup -a 'filter=ansible_hostname'
+  119  ansible serverb -m setup -a 'filter=ansible_fqdn'
+  120  ansible serverb -m setup -a 'filter=ansible_'
+  121  ansible serverb -m setup -a 'filter=ansible_*'
+  122  cd ..
+  123  cd project3/
+  124  ls
+  125  vim hostinfo.yml
+  126  cp mod_get_url_ex1.yml hostinfo.yml 
+  127  vim hostinfo.yml 
+  128  vim template_example
+  129  vim template_example1.yml 
+  130  vim hostinfo.yml 
+  131  ls
+  132  vim sysinfo.txt
+  133  ansible-playbook hostinfo.yml 
+  134  vim hostinfo.yml 
+  135  ansible-playbook hostinfo.yml 
+  136  ls
+  137  ansible-playbook hostinfo.yml 
+  138  vim hostinfo.yml 
+  139  ansible-playbook hostinfo.yml 
+  140  mv sysinfo.txt sysinfo.j2
+  141  vim hostinfo.yml 
+  142  ansible-playbook hostinfo.yml 
+  143  vim hostinfo.yml 
+  144  vim sysinfo.j2 
+  145  vim hostinfo.yml 
+  146  ansible-playbook hostinfo.yml 
+  147  vim hostinfo.yml 
+  148  ansible-playbook hostinfo.yml 
+  149  vim hostinfo.yml 
+  150  vim sysinfo.j2 
+  151  ansible-playbook hostinfo.yml 
+  152  vim hostinfo.yml 
+  153  vim sysinfo.j2 
+  154  ansible-playbook hostinfo.yml 
+  155  ansible servera -a 'cat /root/hostinfo.txt'
+  156  ansible servera -a 'cat /root/hostinfo.txt' -u despair -b
+  157  ansible-playbook hostinfo.yml 
+  158  ansible servera -a 'cat /root/hostinfo.txt' -u despair -b
+  159  vim hostinfo.yml 
+  160  ansible-playbook hostinfo.yml 
+  161  vim hostinfo.yml 
+  162  vim sysinfo.j2 
+  163  ansible-playbook hostinfo.yml 
+  164  vim sysinfo.j2 
+  165  ansible-playbook hostinfo.yml 
+  166  ansible servera -a 'cat /root/hostinfo.txt' -u despair -b
+  167  ansible servera -a 'cat /root/hostinfo_despair.txt' -u despair -b
+  168  ansible serverb -a 'cat /root/hostinfo_despair.txt' -u despair -b
+  169  ansible serverc -a 'cat /root/hostinfo_despair.txt' -u despair -b
+  170  ansible serverd -a 'cat /root/hostinfo_despair.txt' -u despair -b
+  171  cp mod_copy_ex1.yml control_tags_ex1.yml
+  172  vim control_tags_ex1.yml
+  173  ansible-playbook control_tags_ex1.yml -t update
+  174  ansible-playbook control_tags_ex1.yml --skip-tags
+  175  ansible-playbook control_tags_ex1.yml --skip-tags=update
+  176  ansible-playbook control_tags_ex1.yml --list-tags -C
+  177  ansible-playbook control_tags_ex1.yml --list-tags 
+  178  vim control_tags_ex1.yml 
+  179  ansible-playbook control_tags_ex1.yml -t update
+  180  vim control_tags_ex1.yml 
+  181  ansible-playbook control_tags_ex1.yml -t update
+  182  vim control_tags_ex1.yml 
+  183  ansible-playbook control_tags_ex1.yml -t update
+  184  vim control_tags_ex1.yml 
+  185  ansible-playbook control_tags_ex1.yml -t update
+  186  vim control_tags_ex1.yml 
+  187  cp control_tags_ex1.yml control_handlers.yml
+  188  vim control_handlers.yml
+  189  ansible-playbook control_handlers.yml
+  190  curl serverb
+  191  ansible-playbook control_handlers.yml
+  192  vim control_handlers.yml
+  193  ansible-playbook control_handlers.yml
+  194  vim control_handlers.yml
+  195  ansible-playbook control_handlers.yml
+  196  vim control_handlers.yml
+  197  ansible-playbook control_handlers.yml
+  198  vim control_handlers.yml
+  199  ansible-playbook control_handlers.yml
+  200  vim control_handlers.yml
+  201  ansible-playbook control_handlers.yml
+  202  vim control_handlers.yml
+  203  ansible-playbook control_handlers.yml
+  204  vim control_handlers.yml
+  205  ansible-playbook control_handlers.yml
+  206  cd ..
+  207  ls
+  208  zip -r bup.zip despair/
+  209  sudo zip -r bup.zip despair/
+  210  w
+  211  cd
+  212  ls
+  213  cd project
+  214  cd project3/
+  215  ls
+  216  vim access_website
+  217  vim access_website.yml
+  218  ansible access_website.yml 
+  219  ansible-playbook access_website.yml 
+  220  vim access_website.yml
+  221  ansible-playbook access_website.yml 
+  222  vim access_website.yml
+  223  ansible-playbook access_website.yml 
+  224  vim access_website.yml
+  225  ansible-playbook access_website.yml 
+  226  vim access_website.yml
+  227  ansible-playbook access_website.yml 
+  228  vim access_website.yml
+  229  ansible-doc errors
+  230  ansible-doc error
+  231  ansible-doc | less
+  232  ansible-doc -l
+  233  vim control_access_file_register.yml
+  234  ansible-doc -l
+  235  ansible-doc error
+  236  ansible-doc errors
+  237  ls
+  238  cd project3/
+  239  ansible-doc template
+  240  ansible -m setup
+  241  ansible localhost -m setup
+  242  ansible localhost -m setup -a "filter=cpu*"
+  243  ansible localhost -m setup | lesss
+  244  ansible localhost -m setup | less
+  245  ansible localhost -m setup > text
+  246  vim text
+  247  ansible-doc notify
+  248  stat mypage.html 
+  249  vim control_access_file_register.yml 
+  250  ansible-playbook control_access_file_register.yml 
+  251  vim control_access_file_register.yml 
+  252  ansible-playbook control_access_file_register.yml 
+  253  vim control_access_file_register.yml 
+  254  ansible-playbook control_access_file_register.yml 
+  255  vim control_access_file_register.yml 
+  256  ansible-playbook control_access_file_register.yml 
+  257  vim control_access_file_register.yml 
+  258  ansible-playbook control_access_file_register.yml 
+  259  vim control_access_file_register.yml 
+  260  ansible-playbook control_access_file_register.yml 
+  261  vim control_access_file_register.yml 
+  262  ansible-playbook control_access_file_register.yml 
+  263  vim rescue_example.yml
+  264  ansible-playbook rescue_example.yml 
+  265  vim rescue_example.yml
+  266  ansible-playbook rescue_example.yml 
+  267  vim rescue_example.yml
+  268  ansible-playbook rescue_example.yml 
+  269  vim rescue_example.yml
+  270  ansible-playbook rescue_example.yml 
+  271  vim rescue_example.yml
+  272  ansible-playbook rescue_example.yml 
+  273  man rsync
+  274  cd ..
+  275  mkdir project4
+  276  cd project4/
+  277  cp ../project3/inventory ../project3/ansible.cfg 
+  278  cp ../project3/inventory ../project3/ansible.cfg .
+  279  ls
+  280  vim inventory 
+  281  vim ansible.cfg 
   282  ls
-  283  su - priya
-  284  su - anviksha
-  285  su - venkat
-  286  su - priya
-  287  ls
-  288  su - anviksha
-  289  id -nG
-  290  ll /usr/
-  291  pwd
-  292  ls -larth
-  293  su - venkat
-  294  logout
-  295  su - venkat
-  296  su - venkat
-  297  su - shasd
-  298  su - venkat
-  299  su - gvs
-  300  su - gvs
-  301  cat /etc/sshd
-  302  cat /etc/sssd
-  303  cd /etc/sssd
-  304  ll
-  305  cd conf.d/
-  306  ll
-  307  ls -l
-  308  cd
-  309  su - gvs
-  310  exit
-  311  su - venkat
-  312  su - priya
-  313  su - venkat
-  314  su - trial
-  315  su - Adarsh 
-  316  su - raghav
-  317  su - venkat
-  318  tree /home/
-  319  su - venkat 
-  320  su - raghav 
-  321  less /etc/ssh/sshd_config 
-  322  su - venkat
-  323  su - despair
-  324  su - rohit
-  325  su - priya
-  326  su - priya
-  327  su - abhi
-  328  su - venkat
-  329  su - udit
-  330  adduser udit
-  331  usermod -aG wheel udit
-  332  su - udit
-  333  id
-  334  history
-  335  su - udit
-  336  ll
-  337  cat acc.sh 
-  338  cat user.sh 
-  339  cat user_create.sh 
-  340  cat gvsscript.sh 
-  341  su - udit
-  342  ll
-  343  cat > user_create_unv.sh
-  344  cat user_create_unv.sh
-  345  su - udit
-  346  sudo su - 
-  347  sudo - anviksha 
-  348  su - anviksha 
-  349  su - trial
-  350  hostname
-  351  ssh root@servera
-  352  ssh root@serverb
-  353  w
-  354  ssh root@servera
-  355  w
-  356  #shell -->It is a program which processes commands and return output(result/errors)
-  357  #terminal --> It is a program that run a shell
-  358  w
-  359  ssh root@servera
-  360  hostname -f
-  361  hostname 
-  362  hostname --help
-  363  hostname -s
-  364  hostname -f
-  365  hostname 
-  366  exit
-  367  su - trial
-  368  su - venkat
-  369  su - gvs
-  370  su - gvs
-  371  su - sushmanaa
-  372  su - priya
-  373  ansible-doc cop
-  374  ansible-doc copy
-  375  su - gvs
-  376  su - susritha
-  377  su - sushmanaa
-  378  su - susritha
-  379  ls
-  380  su - despair
-  381  su - despair 
-  382  su - despair 
-  383  su - anviksha
-  384  su - venkat
-  385  su - priya 
-  386  su - anviksha
-  387  logout
-  388  su - venkat
-  389  ping serverf
-  390  su - raghav 
-  391  su - susritha
-  392  su - anviksha
-  393  su - priya 
-  394  su - venkat
-  395  su - priya 
-  396  su - anviksha 
-  397  su - venkat
-  398  su - raghav 
-  399  cp /home/raghav/day2/task2.yml /home/venkat/project3/
-  400  chown venkat. /home/venkat/project3/task2.yml 
-  401  su - venkat
-  402  su - venkat 
-  403  su - priya
-  404  su - venkat
-  405  su - priya
-  406  su - venkat
-  407  su - priya
-  408  su - trial
-  409  su - venkat
-  410  su - trial
-  411  su - anviksha
-  412  su i trial
-  413  su - trial
-  414  su - raghav
-  415  su - trial
-  416  su - venkat
-  417  su - trial
-  418  su - trial
-  419  su - venkat
-  420  tree /home/
-  421  history 
-  422  su - venkat
-  423  su - venkat
-  424  su - anviksha
-  425  su - shasd
-  426  su - ragav
-  427  su - raghav
-  428  ls
-  429  su - rohit
-  430  cp /home/venkat/project3/ /home/rohit/project3/
-  431  cp -r  /home/venkat/project3/ /home/rohit/project3/
-  432  ls
-  433  su - venkat 
-  434  chown rohit /home/rohit/project3/project3
-  435  su - sushmanaa
-  436  su - priya
-  437  su - venkat
-  438  su - trial
-  439  su - raghav
-  440  su - trial
-  441  su - raghav
-  442  su - trial
-  443  su - anviksha
-  444  su - abhi
-  445  su - trial
-  446  tree
-  447  su - trial
-  448  su - abhi 
-  449  su - venkat 
-  450  su - susritha
-  451  su - venkat
-  452  su - venkat
-  453  su - trial
-  454  su - venkat 
-  455  su - Adarsh 
-  456  su - despair 
-  457  su - susritha
-  458  su - shasd
-  459  su - shasdsuexit
-  460  su - shasd
-  461  su -shasd
-  462  su - shasd
-  463  su - anviksha
-  464  su - venkat
-  465  su - venkat
-  466  su - trial
-  467  su - Venkat 
-  468  su - venkat
-  469  su - priya
-  470  su - anviksha
-  471  su - raghav
-  472  cd ..
-  473  ll]
-  474  ll
-  475  su - shasd
-  476  su - priya
-  477  su - Abhi
-  478  su - abhi
-  479  su - shasd
-  480  su - sushmanaa
-  481  ansible-doc when
-  482  ansible-doc service
-  483  q
-  484  su - priya
-  485  su - sushmanaa
-  486  cp home/sushmanaa/project2/day2task.yml /home/sushmanaa/project3
-  487  su - sushmanaa
-  488  su - raghav
-  489  su - venkat
-  490  su - raghav
-  491  su - susritha
-  492  su - venkat
-  493  su - raghav
-  494  su - priya
-  495  su - anviksha
-  496  su - raghav
-  497  su - priya
-  498  su - venkat
-  499  su - udit
-  500  su - gvs
-  501  su - venkat
-  502  su - gvs
-  503  su - gvs
-  504  su - despair
-  505  su - despair 
-  506  su - raghav
-  507  su - anviksha
-  508  su - trial
-  509  su - priya
-  510  su - raghav
-  511  su - trial
-  512  su - venkat
-  513  su - trial
-  514  su - raghav
-  515  su - trial
-  516  ansible servera -m setup > fact_x.txt
-  517  su - rohit
-  518  cp /home/rohit/project1/
-  519  ls
-  520  su - rohit
-  521  ls
-  522  su -venkat
-  523  su - venkat
-  524  cp /home/venkat/project3/control_block_rescue_always_ex2.yml  /home/rohit/project3/project3/
-  525  cp /home/venkat/project3/control_block_rescue_ex1.yml  /home/rohit/project3/project3/
-  526  cp /home/venkat/project3/control_block_rescue_ex1.yml.yml  /home/rohit/project3/project3/
-  527  su - venkat
-  528  cp /home/rohit/
-  529  cp /home/rohit/project1/inventory /home/rohit/project3/project3/
-  530  cp /home/rohit/project1/ansible.cfg /home/rohit/project3/project3/
-  531  su - abhi
-  532  su - abhi
-  533  cd /home/venkat/project3/
-  534  ls
-  535  cat control_tags_ex1.yml 
-  536  su - abhi
-  537  cd /home/venkat/project3/
-  538  cat control_tags_ex1.yml 
-  539  su - abhi
-  540  su - Adarsh 
-  541  su - udit
-  542  logout
-  543  su - raghav
-  544  ssh servera
-  545  su - raghav
-  546  su - venkat
-  547  su - susritha
-  548  su - sushmaana
-  549  su - sushmanaa
-  550  su - susritha
-  551  su - sushmanaa
-  552  mkdir project3
-  553  cd project3/
-  554  ls
-  555  vi hostinfo.yml
-  556  vi hostinfo.yaml
-  557  ansible serverb -m setup >facts.txt
-  558  ls
-  559  cd facts.txt
-  560  su - anviksha
-  561  su - venkat 
-  562  logout
-  563  cd project3/
-  564  ll
-  565  cd ..
-  566  su - udit
-  567  logout
-  568  ls
-  569  su - priya
-  570  su - gvs
-  571  su - venkat
-  572  su - gvs
-  573  su - raghav
-  574  ls
-  575  su - anviksha 
-  576  su - Venkat
-  577  su - venkat
-  578  su - anviksha
-  579  ls
-  580  su - Venkat
-  581  su - venkat
-  582  su - raghab
-  583  su - raghav
-  584  su - rohit
-  585  cp /home/rohit/project1/inventory /home/rohit/project4/
-  586  cp /home/rohit/project1/ansible.cfg /home/rohit/project4/
-  587  su - priya
-  588  su - venkat
-  589  su - anviksha 
-  590  su - raghav
-  591  su - priya
-  592  su - udit
-  593  su - abhi
-  594  su - shasd
-  595  su - sushmanaa
-  596  su - rohit
-  597  su - venkat
-  598  su - su
-  599  su - raghav
-  600  su - sushmanaa
-  601  su - Adarsh 
-  602  su - trial
-  603  su - gvs
-  604  su - despair 
-  605  su - abhi
-  606  tree /home/
-  607  vim /etc/ansible/ansible.cfg 
-  608  su - venkat 
-  609  su - anviksha
-  610  ---
-  611  - name: install packages
-  612    hosts: dev,test,prod
-  613    remote_user: anviksha
-  614    become: yes
-  615    tasks:
-  616      - name: Install php,mariadb
-  617        yum:
-  618          name:
-  619            - php
-  620            - mariadb
-  621          state: latest
-  622  - name: install rpm development tools
-  623    hosts: dev
-  624    remote_user: anviksha
-  625    become: yes
-  626    tasks:
-  627      - name: install dev tools
-  628        yum:
-  629          name: "@Development tools"
-  630          state: present
-  631  - name: update all packages
-  632    hosts: dev
-  633    remote_user: anviksha
-  634    become: yes
-  635    tasks:
-  636      - name: update all pacakges
-  637        yum:
-  638          name: '*'
-  639          state: latest
-  640  ...
-  641  su - anviksha
-  642  su - sushmanaa
-  643  su - susritha
-  644  su - abhi
-  645  cd /home/venkat/
-  646  ls
-  647  cd project4/
-  648  ls
-  649  cat gather_smart.yml 
-  650  cat facts_delegate.yml 
-  651  ls
-  652  cat mod_get_url_local_ex1.yml 
-  653  su - abhi
-  654  su - raghav
-  655  su - venkat
-  656  su - anviksha
-  657  su - abhi
-  658  su - raghav
-  659  su - priya
-  660  su -trial
-  661  su - trial
-  662  su - gvs
-  663  su - Adarsh 
-  664  su - venkat
-  665  su - sushmanaa
-  666  su - despair 
-  667  su - sushmanaa
-  668  su -desp
-  669  su - despair 
-  670  su - gvs
-  671  su - venkat 
-  672  su - sushmanaa
-  673  su - venkat
-  674  su - shasd
-  675  vi /.vimrc
-  676  su - shasd
-  677  su - Adarsh 
-  678  su - venkat 
-  679  su - susritha
-  680  su - Adarsh 
-  681  su - trial
-  682  su - venkat
-  683  su - trial
-  684  su - abhi
-  685  su - anviksha
-  686  su - raghav
-  687  history
-  688  su - priya
-  689  su - trial
-  690  su - venkat
-  691  su - trial
-  692  su - anviksha
-  693  su - abhi
-  694  su - despair
-  695  su - susritha
-  696  su - venkat
-  697  su - gvs
-  698  cp /home/venkat/project4/hosts.j2 /home/rohit/project4/
-  699  cp /home/venkat/project4/createusers.yml /home/rohit/project4/
-  700  cp /home/venkat/project4/create_hosts_file.yml /home/rohit/project4/
-  701  cp /home/venkat/project4/inventory  /home/rohit/project4
-  702  su - rohit
-  703  su - trial
-  704  su - venkat
-  705  su - trial
-  706  su - venkat
-  707  su - trial
-  708  su - abhi
-  709  su - anviksha
-  710  su - trial
-  711  su - gvs
-  712  su - trial
-  713  su - priya
-  714  su - abhi
-  715  su - gvs
-  716  su - trial
-  717  su - venkat
-  718  su - venkat 
-  719  su - anviksha 
-  720  su - Adarsh 
-  721  su - raghav
-  722  su - trial
-  723  su - venkat
-  724  su - trial
-  725  su - venkat
-  726  su - trial
-  727  su - venkat
-  728  su - trial
-  729  su - despair
-  730  su - venkat 
-  731  su - priya
-  732  w
-  733  tree 
-  734  tree /home/
-  735  su - venkat
-  736  su - venkat
-  737  su - susritha
-  738  su - venkat
-  739  su - susritha
-  740  su - priya
-  741  su - susritha
-  742  su - trial
-  743  su - abhi
-  744  su - venkat
-  745  su - despair 
-  746  su - venkat
-  747  logout
-  748  su - venkat 
-  749  yum install rhel-system-roles -y
-  750  su - venkat ka
-  751  su - venkat 
-  752  su - des
-  753  su - despair 
-  754  yum install rhel-system-roles
-  755  su - despair 
-  756  ls
-  757  zip -r ansible_4_day_updated.zip /home/despair/
-  758  ls
-  759  su - susritha
-  760  su - venkat
-  761  su - anviksha
-  762  ssh despair@192.168.1.11
-  763  ssh despair@169.254.156.26
-  764  ssh despair@169.254.121.206
-  765  ls
-  766  vim /etc/ssh/sshd_config 
-  767  ls
-  768  cp ansible_4_day_updated.zip /home/despair/
-  769  cd /home/despair/
-  770  ls
-  771  ls-l
-  772  ls -l
-  773  chown despair. ansible_4_day_updated.zip 
-  774  ls -l
-  775  git clone https://github.com/karanpratap/ansible-training-cisco.git
-  776  ls
-  777  cp -r ansible assignment2/ project* ansible-training-cisco/
-  778  ls
-  779  rm ansible_4_day_updated.zip 
-  780  ls
-  781  ls -l
-  782  ls -l | wc -l
-  783  cd ansible-training-cisco/
-  784  ls -l | wc -l
-  785  ls
-  786  git status 
-  787  git add .
-  788  git status 
-  789  git commit -m "Added files from practice server"
-  790  git push
+  283  vim ansible.cfg 
+  284  cp ansible.cfg ../project3/ansible.cfg 
+  285  cd ..
+  286  ls
+  287  cd project
+  288  cd project3/
+  289  ls
+  290  cd ..
+  291  vim project2/ansible.cfg 
+  292  cd project4/
+  293  ls
+  294  vim shutdown.yml
+  295  vim noshutdown.yml
+  296  cp shutdown.yml noshutdown.yml
+  297  vim noshutdown.yml 
+  298  ansible-playbook shutdown.yml 
+  299  vim noshutdown.yml 
+  300  ansible-playbook noshutdown.yml
+  301  vim noshutdown.yml 
+  302  ansible-playbook noshutdown.yml
+  303  vim shutdown.yml 
+  304  cp shutdown.yml backup.yml
+  305  vim backup.yml
+  306  ansible-playbook backup.yml -t dev
+  307  vim backup.yml
+  308  ansible-playbook backup.yml -t prod
+  309  ssh serverb
+  310  ssh serverc
+  311  ansible-doc tar
+  312  vim backup.yml
+  313  ansible-playbook backup.yml -t prod
+  314  vim backup.yml
+  315  ssh serverb
+  316  vim backup.yml
+  317  ansible-playbook backup.yml -t prod
+  318  ssh serverb
+  319  ansible-doc synchronize
+  320  ansible-doc -l
+  321  ansible-doc synchronize
+  322  ls
+  323  cp -r project4/ project5/
+  324  ls
+  325  cd project5/
+  326  ls
+  327  vim ansible.cfg 
+  328  vim backup.yml 
+  329  ansible-playbook backup.yml 
+  330  ls
+  331  cd project5/
+  332  ;s
+  333  ls
+  334  vim backup.yml 
+  335  ansible-playbook backup.yml 
+  336  ansible-playbook backup.yml -t dev
+  337  ansible-playbook backup.yml -t prod
+  338  vim backup.yml 
+  339  ansible-playbook backup.yml -t prod
+  340  vim backup.yml 
+  341  ansible-playbook backup.yml -t prod
+  342  ansible-playbook backup.yml -t prod -v
+  343  vim backup.yml 
+  344  vim shutdown.yml 
+  345  ansible-playbook shutdown.yml 
+  346  vim noshutdown.yml 
+  347  ansible-playbook noshutdown.yml 
+  348  vim noshutdown.yml 
+  349  vim ansible.cfg 
+  350  ansible-playbook noshutdown.yml 
+  351  vim ansible.cfg 
+  352  vim noshutdown.yml 
+  353  vim ansible.cfg 
+  354  ansible-playbook noshutdown.yml 
+  355  vim ansible.cfg 
+  356  ansible-playbook noshutdown.yml 
+  357  ansible-doc ansible-vault
+  358  ansible-doc vault
+  359  ansible-vault --help
+  360  vim createusers.yml
+  361  vim passfile.yml
+  362  cd project4/
+  363  ls
+  364  cd ..
+  365  cd project5/
+  366  ls
+  367  cd project5/
+  368  ls
+  369  vim passfile.yml 
+  370  vim createusers.yml 
+  371  ansible-vault encrypt passfile.yml 
+  372  ansible-playbook createusers.yml 
+  373  vim createusers.yml 
+  374  ansible-playbook createusers.yml 
+  375  vim createusers.yml 
+  376  ansible-playbook createusers.yml 
+  377  ansible-playbook createusers.yml --ask-vault-pass
+  378  ls ../../venkat/
+  379  ll
+  380  cd project5
+  381  ll
+  382  cat hosts.j2 
+  383  logout
+  384  ls
+  385  cd project4
+  386  ls
+  387  cd ..
+  388  cd project5
+  389  ls
+  390  lls
+  391  ll
+  392  ls
+  393  logout
+  394  cd project4/
+  395  ll
+  396  cd ..
+  397  ll
+  398  cd project5/
+  399  ll
+  400  cat create_hosts_file.yml 
+  401  cat hosts.j2 
+  402  logout
+  403  ls
+  404  cd project5/
+  405  ls
+  406  vim template_ex_advanced
+  407  vim template_ex_advanced.yml
+  408  ansible-playbook template_ex_advanced.yml 
+  409  vim template_ex_advanced.yml
+  410  ansible-playbook template_ex_advanced.yml 
+  411  vim template_ex_advanced.yml
+  412  ansible-playbook template_ex_advanced.yml 
+  413  vim template_ex_advanced.yml
+  414  ansible-playbook template_ex_advanced.yml 
+  415  vim template_ex_advanced.yml
+  416  ansible-playbook template_ex_advanced.yml 
+  417  vim hosts.j2
+  418  vim create_hosts_file.yml
+  419  ansible-playbook create_hosts_file.yml 
+  420  vim create_hosts_file.yml
+  421  vim hosts.j2 
+  422  vim create_hosts_file.yml
+  423  ansible-playbook create_hosts_file.yml 
+  424  vim create_hosts_file.yml
+  425  wget http://content.example.com/files/hosts.j2
+  426  ls
+  427  vim hosts.j2.1
+  428  cat hosts.j2 >> hosts.j2.1
+  429  vim hosts.j2.1
+  430  mv hosts.j2.1 hosts.j2
+  431  ansible-playbook create_hosts_file.yml 
+  432  vim create_hosts_file.yml
+  433  ansible-playbook create_hosts_file.yml 
+  434  vim create_hosts_file.yml
+  435  ansible-playbook create_hosts_file.yml 
+  436  ssh serverb
+  437  vim create_hosts_file.yml
+  438  ansible-doc file
+  439  vim create_hosts_file.yml
+  440  ansible-doc file
+  441  ansible-playbook create_hosts_file.yml 
+  442  ansible all -a 'cat /etc/kps_hosts'
+  443  vim create_hosts_file.yml
+  444  ansible all -a 'cat /etc/kps_hosts'
+  445  ansible-playbook create_hosts_file.yml 
+  446  ansible servera -a 'cat /etc/kps_hosts'
+  447  wget -O python.py http://content.example.com/files/dynamic.py
+  448  ls
+  449  vim p
+  450  vim python.py 
+  451  cd
+  452  ls -al
+  453  cd .ansible/
+  454  cd ..
+  455  ls
+  456  mkdir project5_roles
+  457  cd project5
+  458  cd ..
+  459  cd project5_roles/
+  460  ansible-galaxy list
+  461  cd ..
+  462  cp project5/ansible.cfg project5/inventory project5_roles
+  463  cd project5_roles/
+  464  ls
+  465  vim ansible.cfg 
+  466  ls
+  467  mkdir roles
+  468  ansible-galaxy list
+  469  ansible-galaxy init roles/apache
+  470  cd roles/
+  471  tree .
+  472  vim apache/vars/main.yml 
+  473  vim apache/templates/index.j2
+  474  mv apache/templates/index.j2 apache/templates/index.html.j2 
+  475  vim apache/tasks/main.yml 
+  476  vim apache/handlers/main.yml 
+  477  ansible-galaxy --help
+  478  ls
+  479  vim apache/handlers/main.yml 
+  480  tree apache/
+  481  vim apache/meta/main.yml 
+  482  cd ..
+  483  vim apache_using_role.yml
+  484  ansible-playbook apache_using_role.yml 
+  485  curl serverc
+  486  curl serverb
+  487  ansible-playbook apache_using_role.yml 
+  488  cd project5_roles/
+  489  ;s
+  490  ls
+  491  vim timesync_role_ex.yml 
+  492  ansible-playbook timesync_role_ex.yml 
+  493  yum install rhel-system-roles
+  494  cd project5_roles/
+  495  vim timesync_role_ex.yml 
+  496  yum install rhel-system-roles
+  497  ansible-playbook timesync_role_ex.yml 
+  498  ansible-galaxy install rhel-system-roles.timesync
+  499  ansible-galaxy install timesync -p roles/
+  500  ansible-galaxy install rhel.timesync -p roles/
+  501  ansible-galaxy install rhel-system-roles.timesync -p roles/
+  502  yum install rhel-system-roles -y
+  503  vim timesync_role_ex.yml 
+  504  vim ansible.cfg 
+  505  ansible-playbook timesync_role_ex.yml 
+  506  ls
+  507  cd roles/
+  508  l
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd .
+  513  ls
+  514  cd ..
+  515  l
+  516  ls
+  517  cd ..
+  518  vim project5_roles/
+  519  vim project5_roles/requirement.yml 
+  520  ansible-galaxy --help
+  521  ansible-galaxy install --help
+  522  ansible-galaxy install -r project5_roles/roles/ -p project5_roles/
+  523  ansible-galaxy install -r project5_roles/roles/requirement.yml -p project5_roles/roles
+  524  ansible-galaxy install -r project5_roles/requirement.yml -p project5_roles/roles
+  525  ls
+  526  cd project5_roles/
+  527  ls
+  528  cd roles/
+  529  ls
+  530  cd ..
+  531  ls
+  532  vim multirole.yml
+  533  cp apache_using_role.yml multirole.yml 
+  534  vim multirole.yml 
+  535  ansible-playbook multirole.yml 
+  536  vim multirole.yml 
+  537  ansible-playbook multirole.yml 
+  538  curl serverb
+  539  curl serverc
+  540  curl serverd
+  541  ansible-playbook apache_using_role.yml 
+  542  curl serverd
+  543  ansible-galaxy list
+  544  ansible prod -a 'chronyc sources' -b
+  545  vim timesync_role_ex.yml
+  546  less /usr/share/ansible/roles/rhel-system-roles.timesync/README.md 
+  547  ls
+  548  cd 
+  549  cd ansible-training-cisco/
+  550  ls
+  551  mkdir assignment3
+  552  cd ..
+  553  ls -l
+  554  cd ansible-training-cisco/
+  555  ls
+  556  ansible-doc tags
+  557  ansible-doc tag
+  558  cd project3/
+  559  ls
+  560  vim mod_get_url_ex1.yml 
+  561  ls
+  562  vim rescue_example.yml 
+  563  cd ansible-training-cisco/
+  564  ls
+  565  mkdir assignment3
+  566  cd assignment3/
+  567  ls
+  568  cp ../assignment2/ansible.cfg ../assignment2/inventory .
+  569  ls
+  570  vim ping.yml
+  571  ansible-playbook ping.yml 
+  572  ls
+  573  vim inventory 
+  574  vim ansible.cfg 
+  575  vim inventory 
+  576  ansible-playbook ping.yml 
+  577  ansible-playbook --tags tag1 ping.yml
+  578  vim ping.yml
+  579  ansible-playbook --tags tag1 ping.yml
+  580  vim ping.yml
+  581  ansible-playbook --tags tag1 ping.yml
+  582  vim ping.yml
+  583  ansible-playbook --tags tag1 ping.yml
+  584  cd ..
+  585  ls
+  586  cd project5
+  587  ls
+  588  cd ..
+  589  cd project4/
+  590  ls
+  591  cd ..
+  592  cd project3/
+  593  ls
+  594  vim control_tags_ex1.yml 
+  595  cd ..
+  596  cd assignment3/
+  597  ls
+  598  vim ping.yml 
+  599  ansible-playbook --tags tag1 ping.yml
+  600  ansible-playbook --tags tag2 ping.yml
+  601  ansible-playbook --tags tag1 ping.yml
+  602  vim ping.yml 
+  603  ansible-playbook --tags tag1 ping.yml
+  604  ansible-playbook --tags tag2 ping.yml
+  605  vim ping.yml 
+  606  ansible all -a 'cat /tmp/tag2.html'
+  607  ansible all -a 'cat /tmp/tag1.html'
+  608  vim inaccess.yml
+  609  cp ping.yml inventory 
+  610  cp ../assignment2/inventory .
+  611  cp ping.yml inaccess.yml
+  612  vim inaccess.yml 
+  613  ansible-playbook inaccess.yml 
+  614  vim inaccess.yml 
+  615  ansible-playbook inaccess.yml 
+  616  vim inaccess.yml 
+  617  ansible-playbook inaccess.yml 
+  618  ansible-playbook inaccess.yml --check-syntax
+  619  ansible-playbook --check-syntax inaccess.yml 
+  620  ansible-playbook --help
+  621  ansible --check-syntax inaccess.yml 
+  622  ansible-playbook inaccess.yml 
+  623  vim inaccess.yml 
+  624  ansible-playbook inaccess.yml 
+  625  vim inaccess.yml 
+  626  ansible-playbook inaccess.yml 
+  627  vim inaccess.yml 
+  628  ansible-playbook inaccess.yml 
+  629  vim inaccess.yml 
+  630  ansible-playbook inaccess.yml 
+  631  vim inaccess.yml 
+  632  ansible-playbook inaccess.yml 
+  633  vim inaccess.yml 
+  634  ansible-playbook inaccess.yml 
+  635  vim inaccess.yml 
+  636  ansible-playbook inaccess.yml 
+  637  vim inaccess.yml 
+  638  ansible-playbook inaccess.yml 
+  639  vim inaccess.yml 
+  640  ansible-playbook inaccess.yml 
+  641  vim inaccess.yml 
+  642  ansible-playbook inaccess.yml 
+  643  vim inaccess.yml 
+  644  ansible-playbook inaccess.yml 
+  645  vim inaccess.yml 
+  646  ansible-playbook inaccess.yml 
+  647  vim inaccess.yml 
+  648  ansible-playbook inaccess.yml 
+  649  vim inaccess.yml 
+  650  ansible-playbook inaccess.yml 
+  651  vim inaccess.yml 
+  652  ansible-playbook inaccess.yml 
+  653  vim inaccess.yml 
+  654  ansible-playbook inaccess.yml 
+  655  vim inaccess.yml 
+  656  ansible-playbook inaccess.yml 
+  657  vim inaccess.yml 
+  658  ansible-playbook inaccess.yml 
+  659  vim inaccess.yml 
+  660  ansible-playbook inaccess.yml 
+  661  ansible serverc -a 'cat /var/www/html/access.html'
+  662  vim inaccess.yml 
+  663  ansible serverc -a 'cat /var/www/html/access.html'
+  664  ansible-playbook inaccess.yml 
+  665  vim inaccess.yml 
+  666  ansible serverc -a 'cat /var/www/html/access.html'
+  667  vim inaccess.yml 
+  668  ansible-playbook inaccess.yml 
+  669  vim inaccess.yml 
+  670  ansible-playbook inaccess.yml 
+  671  vim inaccess.yml 
+  672  cp inaccess.yml saveabort.yml
+  673  vim saveabort.yml
+  674  cd ansible-training-cisco/
+  675  ls
+  676  cd assignment3/
+  677  ls
+  678  vim saveabort.yml 
+  679  vim fail.yml
+  680  cp inaccess.yml fail.yml
+  681  vim fail.yml 
+  682  ansible-playbook fail.yml 
+  683  cd ..
+  684  mkdir assignment4
+  685  cd assignment4
+  686  cp ../assignment3/inventory ../project5_roles/ansible.cfg 
+  687  cp ../assignment3/inventory ../project5_roles/ansible.cfg .
+  688  ls
+  689  vim ansible.cfg 
+  690  vim inventory 
+  691  wget http://content.example.com/files/hwreport.empty
+  692  vim hwreport.empty 
+  693  ansible --help
+  694  ansible-doc replace
+  695  vim hwreport.empty 
+  696  vim hwreport.yml
+  697  cp ../assignment3/inaccess.yml hwreport.
+  698  cp ../assignment3/inaccess.yml hwreport.yml 
+  699  rm hwreport.
+  700  vim hwreport.yml 
+  701  ansible-playbook hwreport.yml 
+  702  vim hwreport.yml 
+  703  ansible-playbook hwreport.yml 
+  704  ansible all -a 'cat /root/hwreport.txt' -b
+  705  vim hwreport.yml 
+  706  ansible-playbook hwreport.yml 
+  707  ansible all -a 'cat /root/hwreport.txt' -b
+  708  vim hwreport.yml 
+  709  ansible all -a 'cat /root/hwreport.txt' -b
+  710  ansible-playbook hwreport.yml 
+  711  vim locker.yml
+  712  vim secret.txt
+  713  ansible-vault --help
+  714  ansible-vault encrypt locker.yml --vault-password-file=secret.txt
+  715  ansible-vault view locker.yml --vault-password-file=secret.txt
+  716  vim user_list.yml 
+  717  ansible-doc firewalld
+  718  ansible-doc replace
+  719  cd ansible-training-cisco/
+  720  cat assignment4/hwreport.empty 
+  721  vim saveabort.yml
+  722  ansible --help
+  723  ansible-doc vars
+  724  ansible-doc var
+  725  hi
+  726  history 
+  727  history | grep less
+  728  ansible localhost -m setup | less
+  729  ansible localhost -m setup > file.setup
+  730  less file.setup 
+  731  cd project3/
+  732  ls
+  733  cd ..
+  734  cd project4/
+  735  sl
+  736  ls
+  737  cd ..
+  738  cd project5
+  739  ls
+  740  vim template_ex_advanced.yml 
+  741  vim createusers.yml 
+  742  cd ..
+  743  cd assignment4/
+  744  cp ../project5/createusers.yml .
+  745  vim .
+  746  vim createusers.yml 
+  747  wget http://content.example.com/files/user_list.yml
+  748  ls
+  749  vim user_list.yml 
+  750  mv createusers.yml users.yml
+  751  vim users.yml
+  752  ansible-playbook --help
+  753  ansible-playbook users.yml --vault-password-file=secret.txt
+  754  vim users.yml
+  755  ansible-playbook users.yml --vault-password-file=secret.txt
+  756  vim users.yml
+  757  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  758  vim users.yml
+  759  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  760  vim users.yml
+  761  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  762  vim users.yml
+  763  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  764  vim users.yml
+  765  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  766  vim users.yml
+  767  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  768  vim users.yml
+  769  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  770  vim users.yml
+  771  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  772  vim users.yml
+  773  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  774  vim users.yml
+  775  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  776  vim users.yml
+  777  ansible-playbook users.yml --vault-password-file=secret.txtvaul
+  778  ansible-playbook users.ymlvault view
+  779  ansible-vault view locker.yml --help
+  780  ansible-vault view locker.yml --vault-password-file=secret.txt
+  781  vim users.yml
+  782  ansible-playbook users.yml --vault-password-file=secret.txt -C
+  783  vim user
+  784  vim users.yml 
+  785  ansible-playbook users.yml --vault-password-file=secret.txt
+  786  vim ansible.cfg 
+  787  mkdir roles
+  788  cd roles
+  789  ansible-galaxy init webserver
+  790  ls
   791  cd ..
-  792  ls
-  793  rm -r ansible assignment2/ project*
-  794  y
-  795  ls
-  796  rm -r project3/ project5 project5_roles/
-  797  y
-  798  ls
-  799  cd 
-  800  cd -
-  801  ls
-  802  cd ansible-training-cisco/
-  803  ls
-  804  cd ..
-  805  ls
-  806  cd -
-  807  cat README.md 
-  808  vim README.md
-  809  git add README.md 
-  810  git commit -m "README updated to reflect precise training duration"
-  811  git config --global user.name despair
-  812  git push
-  813  su - despair 
-  814  systemctl enable --now cockpit.socket
-  815  su - despair 
-  816  cp /home/venkat/project4/webserver.conf.j2 /home/despair/project5/
-  817  cd /home/despair/project5/
-  818  ls -l
-  819  chown despair. webserver.conf.j2 
-  820  ls -l
-  821  su - despair 
-  822  cd /home/venkat/
+  792  ansible-galaxy list
+  793  cd roles
+  794  tree
+  795  vim templates/index.html.j2
+  796  ls -l
+  797  touch webserver/templates/index.html.j2
+  798  vim webserver/templates/index.html.j2
+  799  vim webserver/tasks/main.yml 
+  800  vim webserver/tasks/services.yml
+  801  mv webserver/tasks/services.yml webserver/tasks/firewalld.yml
+  802  vim webserver/tasks/httpd.yml
+  803  cd ..
+  804  vim myrole.yml
+  805  cd ..
+  806  ls
+  807  cd project5_roles/
+  808  ls
+  809  vim a
+  810  vim apache_using_role.yml 
+  811  cd ..
+  812  cd assignment4/
+  813  vim myrole.yml 
+  814  ansible-playbook myrole.yml -C
+  815  vim inventory 
+  816  vim myrole.yml 
+  817  vim inventory 
+  818  ansible-playbook myrole.yml -C
+  819  vim inventory 
+  820  cd roles/
+  821  ls
+  822  cd webserver/
   823  ls
-  824  cd project4/
+  824  cd tasks/
   825  ls
-  826  cd roles/
-  827  ls
-  828  cp requirement.yml /home/despair/project5_roles/
-  829  cd /home/despair/project5_roles/
-  830  chown despair. requirement.yml 
-  831  su -
-  832  w
-  833  tree /home/
-  834  su - venkat
-  835  su - susritha
-  836  su - sushmanaa
-  837  su - raghav
-  838  su - rohit
-  839  su - anviksha 
-  840  su - priya
-  841  ;s
-  842  ls
-  843  su - despair 
-  844  su - rohit 
-  845  su - abhi
-  846  su - venkat 
-  847  su - susritha 
-  848  su -A
-  849  su - A
-  850  su - Adarsh 
-  851  su - rohit
-  852  su - venkat
-  853  su - udit 
-  854  su - venkat 
-  855  su - udit
-  856  logout
-  857  su - trial
-  858  yum install rhel-system-roles -y
-  859  su - trial
-  860  su - abhi
-  861  cd /home/venkat/
-  862  ls
-  863  cd project4/
-  864  ls
-  865  cat hosts.j2 
-  866  mkdir /home/abhi/project4_venkat
-  867  cp * /home/abhi/project4_venkat/
-  868  cp -r * /home/abhi/project4_venkat/
-  869  yy
-  870  y
-  871  su - abhi
-  872  pwd
-  873  cp * /home/abhi/project4_venkat/
-  874  y
-  875  su - abhi
-  876  cd /home/rohit/
-  877  ls
-  878  cd project4/
-  879  ls
-  880  cat create_hosts_file.yml 
-  881  :q
-  882  cat hosts.j2 
-  883  su - venkat
-  884  su - gvs
-  885  ld
-  886  ls
-  887  su - trial
-  888  ls
-  889  vim hwreport.txt 
-  890  logout
-  891  su - raghav
-  892  cat hwreport.txt 
-  893  logout
-  894  cat hwreport.txt 
-  895  logout
-  896  cat hwreport.txt 
-  897  mv hwreport.txt hwreport_backup.txt
-  898  logout
-  899  cat hwreport
-  900  cat hwreport.txt 
-  901  vim hwreport
-  902  logout
-  903  ls
-  904  logout
-  905  cat hwreport.txt 
-  906  rm -rf hwreport.txt 
-  907  logout
-  908  cat hwreport.txt 
-  909  rm -rf hwreport.txt 
-  910  logout
-  911  cat hwreport.txt 
-  912  logout
-  913  ls
-  914  cat hwreport.txt 
-  915  ansible-doc lineinfile
-  916  vim hwreport.txt 
-  917  su - raghav
-  918  su - priya
-  919  su -raghav
-  920  su - raghav
-  921  su - anviksha
-  922  pwd
-  923  cd ..
-  924  cd home/
-  925  ll
-  926  cd Adarsh/
-  927  ll
-  928  cd ..
-  929  su - Adarsh 
-  930  su - anviksha 
-  931  exit
-  932  su - shasd
-  933  exit
-  934  ll
-  935  sh prep_lab_workstation.sh 
-  936  id anviksha
-  937  su - laxmi
-  938  su - lakshmi
-  939  ll
-  940  rm -f prep_lab_workstation.sh 
-  941  w
-  942  ll
-  943  sh prep_lab_workstation.sh 
-  944  id lakshmi
-  945  tail /etc/sudoers
-  946  su - lakshmi 
-  947  ll
-  948  rm -f prep_lab_workstation.sh 
-  949  su - lakshmi
-  950  su - student
-  951  sh prep_lab_workstation.sh 
-  952  su - lakshmi
-  953  ll
-  954  vim prep_lab_workstation.sh 
-  955  sh prep_lab_workstation.sh 
-  956  su - lakshmi 
-  957  su - student
-  958  vim prep_lab_workstation.sh 
-  959  sh prep_lab_workstation.sh 
-  960  su - lakshmi
-  961  vim prep_lab_workstation.sh 
-  962  sh prep_lab_workstation.sh 
-  963  su - lakshmi
-  964  rm -f prep_lab_workstation.sh 
-  965  su - abhi
-  966  ls -l /home/student/.ssh/
-  967  ls -l /home/devops/
-  968  ls -l .ssh/
-  969  ll
-  970  ll
-  971  ls -l /etc/rht 
-  972  cat /etc/rht 
-  973  cat /etc/.rht_authorized_keys 
-  974  su - student
-  975  ll
-  976  su - despair
-  977  su - de
-  978  su - despair 
-  979  cd /home/de
-  980  cd /home/despair/
-  981  chown despair. ansible-training-cisco/
-  982  ls -l
-  983  su - despair 
-  984  su - despair 
-  985  su -despa
-  986  su - despair 
-  987  cd /home/despair/
-  988  ls
-  989  cd ansible-training-cisco/
-  990  ls
-  991  ls -l
-  992  git add assignment3/ assignment4/ file.setup 
-  993  git commit 'Assignment 3 and assignment 4 check in'
-  994  git commit -m 'Assignment 3 and assignment 4 check in'
-  995  git push
-  996  su - despair
-  997  su - trial
-  998  su - venkat
-  999  ll
- 1000  w
- 1001  su - despair 
- 1002  cd /home/despair/
- 1003  ls
- 1004  cd ansible-training-cisco/
- 1005  ls
- 1006  git add project5_partition/ assignment4/hwreport.yml 
- 1007  git commit -m "Partition creation ansible project check-in"
- 1008  git push
- 1009  git status 
- 1010  history 
- 1011  history > commands.txt
+  826  cat main.yml 
+  827  cat httpd.yml 
+  828  cat firewalld.yml 
+  829  vim main.yml 
+  830  cd ../..
+  831  cd ..
+  832  ansible-playbook myrole.yml -C
+  833  vim myrole.yml 
+  834  vim /home/despair/ansible-training-cisco/assignment4/roles/webserver/tasks/main.yml
+  835  ansible-playbook myrole.yml -C
+  836  vim /home/despair/ansible-training-cisco/assignment4/roles/webserver/tasks/main.yml
+  837  ansible-playbook myrole.yml -C
+  838  vim /home/despair/ansible-training-cisco/assignment4/roles/webserver/tasks/main.yml
+  839  ansible-playbook myrole.yml -C
+  840  vim /home/despair/ansible-training-cisco/assignment4/roles/webserver/tasks/main.yml
+  841  ansible-playbook myrole.yml -C
+  842  vim /home/despair/ansible-training-cisco/assignment4/roles/webserver/tasks/main.yml
+  843  ansible-playbook myrole.yml -C
+  844  curl serverb
+  845  ansible-playbook myrole.yml -Cv 
+  846  ls
+  847  curl serverc
+  848  curl serverb
+  849  cd ansible-training-cisco/
+  850  cd assignment4/
+  851  ls
+  852  vim myrole.yml 
+  853  vim roles/webserver/tasks/main.yml 
+  854  ansible-doc template
+  855  ansible-playbook myrole.yml 
+  856  curl serverb
+  857  curl serverc
+  858  vim roles/webserver/tasks/main.yml 
+  859  vim roles/webserver/templates/index.html.j2 
+  860  ansible all -a 'cat /var/www/html/index.html' -b
+  861  cd ansible-training-cisco/
+  862  git status
+  863  git add assignment3 assignment4 file.setup 
+  864  ls -al
+  865  ls
+  866  cd ansible-training-cisco/
+  867  ll
+  868  cd ansible/
+  869  ls
+  870  cat inventory 
+  871  cat ansible.cfg 
+  872  ls
+  873  cat packages.yml 
+  874  cat issues.yml 
+  875  l
+  876  ls
+  877  cd ..
+  878  ls
+  879  cd assignment2
+  880  ls
+  881  cat stack.yml 
+  882  cat marker.yml 
+  883  ls
+  884  cd ..
+  885  ls
+  886  cd project2
+  887  ls
+  888  cd ..
+  889  cd project1
+  890  ls
+  891  cd ..
+  892  ls
+  893  cd assignment3
+  894  ls
+  895  cat ping.yml 
+  896  cat inaccess.yml 
+  897  ls
+  898  cat saveabort.yml 
+  899  cat fail.yml 
+  900  ll
+  901  cd ..
+  902  ls
+  903  cd assignment4
+  904  ls
+  905  ll
+  906  history 
+  907  ll
+  908  cat hwreport.
+  909  cat hwreport.yml 
+  910  ll
+  911  cat hwreport.empty 
+  912  cat locker.yml 
+  913  cat secret.txt 
+  914  cat user_list.yml 
+  915  cat users.yml 
+  916  ll
+  917  cat myrole.yml 
+  918  tree ./roles/
+  919  cat ./roles/webserver/tasks/firewalld.yml 
+  920  cat ./roles/webserver/tasks/httpd.yml 
+  921  cat ./roles/webserver/tasks/main.yml 
+  922  cat ./roles/webserver/templates/index.html.j2 
+  923  logout
+  924  ls
+  925  cd ansible-training-cisco/
+  926  ls
+  927  cd assignment4/
+  928  ls
+  929  vim hwreport.yml 
+  930  ansible-playbook hwreport.y
+  931  ansible-playbook hwreport.yml 
+  932  ansible -a 'cat /root/hwreport.txt'
+  933  ansible all -a 'cat /root/hwreport.txt' -b
+  934  vim hwreport.yml 
+  935  ansible-playbook hwreport.yml 
+  936  vim hwreport.yml 
+  937  ansible-playbook hwreport.yml 
+  938  vim hwreport.yml 
+  939  ansible all -a 'cat /root/hwreport.txt' -b
+  940  vim hwreport.yml 
+  941  ansible all -a 'cat /root/hwreport_despair.txt' -b
+  942  vim hwreport.yml 
+  943  ansible-playbook hwreport.yml 
+  944  ansible all -a 'cat /root/hwreport_despair.txt' -b
+  945  vim hwreport.yml 
+  946  ansible-playbook hwreport.yml 
+  947  vim hwreport.yml 
+  948  ansible all -a 'cat /root/hwreport_despair.txt' -b
+  949  vim hwreport.yml 
+  950  ansible all -a 'cat /root/hwreport_despair.txt' -b
+  951  ansible-playbook hwreport.yml 
+  952  ansible all -a 'cat /root/hwreport_despair.txt' -b
+  953  cd ..
+  954  less file.setup 
+  955  cd assignment4/
+  956  vim hwreport.
+  957  vim hwreport.yml 
+  958  ansible-playbook hwreport.yml 
+  959  vim hwreport.yml 
+  960  ansible-playbook hwreport.yml 
+  961  vim hwreport.yml 
+  962  ansible-playbook hwreport.yml 
+  963  ansible all -a 'cat /root/hwreport_despair.txt' -b
+  964  vim hwreport.yml 
+  965  ansible all -a 'cat /root/hwreport_despair.txt' -b
+  966  ansible-playbook hwreport.yml 
+  967  ansible all -a 'cat /root/hwreport_despair.txt' -b
+  968  vim hwreport.yml 
+  969  cd ..
+  970  ls
+  971  mkdir project5_partition
+  972  cd project5_partition/
+  973  vim create_lvm.yml
+  974  ansible-playbook create_lvm.yml 
+  975  vim create_lvm.yml
+  976  ls
+  977  cp ../assignment4/inventory ../assignment4/ansible.cfg .
+  978  ansible-playbook create_lvm.yml 
+  979  vim create_lvm.yml
+  980  ansible-playbook create_lvm.yml 
+  981  vim create_lvm.yml
+  982  ansible-playbook create_lvm.yml 
+  983  vim create_lvm.yml
+  984  ansible-playbook create_lvm.yml 
+  985  vim create_lvm.yml
+  986  ansible-playbook create_lvm.yml 
+  987  vim create_lvm.yml
+  988  ansible-doc filesystem
+  989  vim create_lvm.yml
+  990  ansible-playbook create_lvm.yml 
+  991  vim create_lvm.yml
+  992  ansible-playbook create_lvm.yml 
+  993  vim create_lvm.yml
+  994  cd ..
+  995  ls
+  996  git status 
+  997  git add assignment4/hwreport.yml project5_partition/
+  998  cd ansible-training-cisco/
+  999  ls
+ 1000  history > commands_history.txt
