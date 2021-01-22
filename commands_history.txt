@@ -1,0 +1,1000 @@
+   12  su - ansible
+   13  cd ansi
+   14  su - ansi
+   15  su - priya
+   16  vim account.sh
+   17  su - priya
+   18  su - gvs
+   19  ssh serverf
+   20  su - gvs
+   21  ssh-copy-id Adarsh@servera.lab.example.com
+   22  su - Adarsh 
+   23  su - ansi
+   24  sudo - anviksha 
+   25  su - anviksha 
+   26  su - venkat 
+   27  su - anviksha 
+   28  su 
+   29  /end
+   30  /eof
+   31  exit
+   32  su - despair
+   33  su - despair
+   34  su - gvs
+   35  su - venkat 
+   36  useradd test
+   37  cp /home/venkat/project1/inventory /home/test
+   38  su - test
+   39  chown test. /home/test/inventory 
+   40  su - test
+   41  cp /home/test/inventory /home/student/
+   42  chown student. /home/student/inventory 
+   43  su - student
+   44  su - test
+   45  su - venkat 
+   46  su - priya
+   47  ll
+   48  cat account.sh 
+   49  vim account.sh 
+   50  cat account.sh 
+   51  ssh root@serverc
+   52  ssh root@serverd
+   53  ssh root@servere
+   54  ssh root@serverf
+   55  su - priya
+   56  w
+   57  ll
+   58  su - venkat
+   59  su - abhi
+   60  su - venkat
+   61  su - abhi
+   62  su - venkat
+   63  su - venkat
+   64  ssh servera
+   65  cat /etc/passwd
+   66  ls -al .ssh/
+   67  rm -f .ssh/id_rsa
+   68  rm -f .ssh/id_rsa.pub
+   69  history
+   70  su - sushmanaa
+   71  ssh ansible@servera
+   72  su - sushmanaa
+   73  su - venkat
+   74  su - sushmanaa
+   75  yum install ansible -y
+   76  ansible --version
+   77  sudo su sushmanaa
+   78  su - venkat
+   79  su - sushmanaa
+   80  su - Adarsh 
+   81  su - susritha
+   82  su - Adarsh 
+   83  su - abhi
+   84  su - abhi
+   85  su -rohit
+   86  su - rohit
+   87  ls
+   88  su - venkat 
+   89  su - rohit
+   90  echo rohit123 | passwd --stdin rohit
+   91  su - rohit
+   92  useradd -G wheel rohit
+   93  ls
+   94  cat myscript.sh 
+   95  cat user.sh 
+   96  cat createuser.sh 
+   97  vim acc.sh 
+   98  ls
+   99  ssh root@serverc
+  100  ssh root@servera
+  101  ssh root@serverb
+  102  ssh root@serverd
+  103  ssh root@servere
+  104  ssh root@serverf
+  105  su - rohit
+  106  id rohit
+  107  su - rohit
+  108  su - venkat
+  109  su - rohit
+  110  su - venkat 
+  111  su - venkat
+  112  cd raghav/
+  113  ll
+  114  vim managed_node
+  115  ansible-playbook host-lists
+  116  ansible-playbook --help
+  117  ansible-playbook --list-hosts
+  118  ansible-playbook --list-hosts -i /root/raghav/managed_node 
+  119  su - raghav
+  120  cd ..
+  121  mv raghav/ /home/raghav/
+  122  su - raghav
+  123  history
+  124  ll /home/
+  125  su - venkat
+  126  ll /home/
+  127  useradd udit
+  128  ll /home/
+  129  ll /home/udit/
+  130  ll /home/susritha/
+  131  su - udit
+  132  vim newuser.sh
+  133  cat newuser.sh
+  134  ssh root@servera
+  135  ssh root@serverb
+  136  ssh root@serverc
+  137  ssh root@serverd
+  138  ssh root@servere
+  139  ssh root@serverf
+  140  user add trial
+  141  - user add trial
+  142  - useradd trial
+  143  useradd trial
+  144  su trial
+  145  su - anviksha 
+  146  sudo su venkat 
+  147  sudo su anviksha 
+  148  su - raghav
+  149  ssh serverf
+  150  su - raghav
+  151  su trial
+  152  su - abhi
+  153  exit
+  154  su - abhi
+  155  exit
+  156  su - anviksha 
+  157  su - venkat
+  158  su - anviksha 
+  159  su - priya
+  160  ls
+  161  su - priya
+  162  ls
+  163  cd ansible
+  164  su - priya
+  165  su - gvs
+  166  ls
+  167  su - Venkat
+  168  ls
+  169  su - venkat
+  170  su - priya
+  171  ssh-keygen
+  172  ssh-copy-id trial@servera.lab.example.com
+  173  ssh-copy-id trial@serverb.lab.example.com
+  174  ssh-copy-id trial@serverc.lab.example.com
+  175  ssh-copy-id trial@serverd.lab.example.com
+  176  ssh-copy-id trial@servere.lab.example.com
+  177  ssh-copy-id trial@serverf.lab.example.com
+  178  ssh servera
+  179  ssh serverb
+  180  ssh serverc
+  181  ssh serverd
+  182  ssh servere
+  183  ssh serverf
+  184  yum install ansible -y
+  185  ansible --version
+  186  su trial
+  187  w
+  188  tree /home/
+  189  su - priya
+  190  ansible --version
+  191  su - venkat 
+  192  cp /home/priya/ansible/daya2.yml /home/venkat/project2/
+  193  cp /home/priya/ansible/day1a2.yml /home/venkat/project2/
+  194  cd /home/venkat/project2/
+  195  ll
+  196  chown venkat. *
+  197  ll
+  198  su - despair
+  199  su - trial
+  200  su priya
+  201  su - priya
+  202  su - trial
+  203  su - susritha
+  204  su - aadarsh
+  205  su - adarsh
+  206  su - Adarsh
+  207  su - susritha
+  208  su - priya
+  209  su - sushmanaa
+  210  su - priya
+  211  su - sushmanaa
+  212  priya
+  213  su - priya
+  214  su - sushmanaa
+  215  su - venkat
+  216  cd priya
+  217  su - priya
+  218  su - anviksha
+  219  su - venkat 
+  220  su - anviksha
+  221  history
+  222  tree
+  223  history
+  224  su - anviksha
+  225  su - venkat
+  226  ls
+  227  su - venkatat
+  228  su - venkat
+  229  su - priya
+  230  su - venkat
+  231  ls
+  232  cd project2
+  233  su - venkat
+  234  su - raghav
+  235  su - Adarsh 
+  236  su - venkat 
+  237  su - susritha
+  238  ls
+  239  cat acc.sh 
+  240  ls
+  241  su - rohit
+  242  su - venkat
+  243  su - sushmanaa
+  244  su - venkat
+  245  su - sushmanaa
+  246  su - venkat
+  247  ls
+  248  su -sushmanaa
+  249  su - sushmanaa
+  250  su - venkat
+  251  su - sushmanaa
+  252  hostory
+  253  history
+  254  ssh-keygen
+  255  ssh-copy-id trial@servera.lab.example.com
+  256  history
+  257  ssh-copy-id sushmanaa@servera.lab.example.com
+  258  ls
+  259  su - sushmanaa
+  260  su - venkat
+  261  su - sushmanaa
+  262  history
+  263  ssh-copy-id sushmanaa@servera.lab.example.com
+  264  ssh-copy-id sushmanaa@serverb.lab.example.com
+  265  ssh-copy-id sushmanaa@serverc.lab.example.com
+  266  ssh-copy-id sushmanaa@serverd.lab.example.com
+  267  ssh-copy-id sushmanaa@servere.lab.example.com
+  268  ssh-copy-id sushmanaa@serverf.lab.example.com
+  269  su - sushmanaa
+  270  ping serverb
+  271  ping servera
+  272  cd project2
+  273  su - sushmanaa
+  274  su - venkat
+  275  su - sushmanaa
+  276  su - trial
+  277  su - venkat
+  278  su - trial
+  279  su - shasd
+  280  su -venkat
+  281  su - venkat
+  282  ls
+  283  su - priya
+  284  su - anviksha
+  285  su - venkat
+  286  su - priya
+  287  ls
+  288  su - anviksha
+  289  id -nG
+  290  ll /usr/
+  291  pwd
+  292  ls -larth
+  293  su - venkat
+  294  logout
+  295  su - venkat
+  296  su - venkat
+  297  su - shasd
+  298  su - venkat
+  299  su - gvs
+  300  su - gvs
+  301  cat /etc/sshd
+  302  cat /etc/sssd
+  303  cd /etc/sssd
+  304  ll
+  305  cd conf.d/
+  306  ll
+  307  ls -l
+  308  cd
+  309  su - gvs
+  310  exit
+  311  su - venkat
+  312  su - priya
+  313  su - venkat
+  314  su - trial
+  315  su - Adarsh 
+  316  su - raghav
+  317  su - venkat
+  318  tree /home/
+  319  su - venkat 
+  320  su - raghav 
+  321  less /etc/ssh/sshd_config 
+  322  su - venkat
+  323  su - despair
+  324  su - rohit
+  325  su - priya
+  326  su - priya
+  327  su - abhi
+  328  su - venkat
+  329  su - udit
+  330  adduser udit
+  331  usermod -aG wheel udit
+  332  su - udit
+  333  id
+  334  history
+  335  su - udit
+  336  ll
+  337  cat acc.sh 
+  338  cat user.sh 
+  339  cat user_create.sh 
+  340  cat gvsscript.sh 
+  341  su - udit
+  342  ll
+  343  cat > user_create_unv.sh
+  344  cat user_create_unv.sh
+  345  su - udit
+  346  sudo su - 
+  347  sudo - anviksha 
+  348  su - anviksha 
+  349  su - trial
+  350  hostname
+  351  ssh root@servera
+  352  ssh root@serverb
+  353  w
+  354  ssh root@servera
+  355  w
+  356  #shell -->It is a program which processes commands and return output(result/errors)
+  357  #terminal --> It is a program that run a shell
+  358  w
+  359  ssh root@servera
+  360  hostname -f
+  361  hostname 
+  362  hostname --help
+  363  hostname -s
+  364  hostname -f
+  365  hostname 
+  366  exit
+  367  su - trial
+  368  su - venkat
+  369  su - gvs
+  370  su - gvs
+  371  su - sushmanaa
+  372  su - priya
+  373  ansible-doc cop
+  374  ansible-doc copy
+  375  su - gvs
+  376  su - susritha
+  377  su - sushmanaa
+  378  su - susritha
+  379  ls
+  380  su - despair
+  381  su - despair 
+  382  su - despair 
+  383  su - anviksha
+  384  su - venkat
+  385  su - priya 
+  386  su - anviksha
+  387  logout
+  388  su - venkat
+  389  ping serverf
+  390  su - raghav 
+  391  su - susritha
+  392  su - anviksha
+  393  su - priya 
+  394  su - venkat
+  395  su - priya 
+  396  su - anviksha 
+  397  su - venkat
+  398  su - raghav 
+  399  cp /home/raghav/day2/task2.yml /home/venkat/project3/
+  400  chown venkat. /home/venkat/project3/task2.yml 
+  401  su - venkat
+  402  su - venkat 
+  403  su - priya
+  404  su - venkat
+  405  su - priya
+  406  su - venkat
+  407  su - priya
+  408  su - trial
+  409  su - venkat
+  410  su - trial
+  411  su - anviksha
+  412  su i trial
+  413  su - trial
+  414  su - raghav
+  415  su - trial
+  416  su - venkat
+  417  su - trial
+  418  su - trial
+  419  su - venkat
+  420  tree /home/
+  421  history 
+  422  su - venkat
+  423  su - venkat
+  424  su - anviksha
+  425  su - shasd
+  426  su - ragav
+  427  su - raghav
+  428  ls
+  429  su - rohit
+  430  cp /home/venkat/project3/ /home/rohit/project3/
+  431  cp -r  /home/venkat/project3/ /home/rohit/project3/
+  432  ls
+  433  su - venkat 
+  434  chown rohit /home/rohit/project3/project3
+  435  su - sushmanaa
+  436  su - priya
+  437  su - venkat
+  438  su - trial
+  439  su - raghav
+  440  su - trial
+  441  su - raghav
+  442  su - trial
+  443  su - anviksha
+  444  su - abhi
+  445  su - trial
+  446  tree
+  447  su - trial
+  448  su - abhi 
+  449  su - venkat 
+  450  su - susritha
+  451  su - venkat
+  452  su - venkat
+  453  su - trial
+  454  su - venkat 
+  455  su - Adarsh 
+  456  su - despair 
+  457  su - susritha
+  458  su - shasd
+  459  su - shasdsuexit
+  460  su - shasd
+  461  su -shasd
+  462  su - shasd
+  463  su - anviksha
+  464  su - venkat
+  465  su - venkat
+  466  su - trial
+  467  su - Venkat 
+  468  su - venkat
+  469  su - priya
+  470  su - anviksha
+  471  su - raghav
+  472  cd ..
+  473  ll]
+  474  ll
+  475  su - shasd
+  476  su - priya
+  477  su - Abhi
+  478  su - abhi
+  479  su - shasd
+  480  su - sushmanaa
+  481  ansible-doc when
+  482  ansible-doc service
+  483  q
+  484  su - priya
+  485  su - sushmanaa
+  486  cp home/sushmanaa/project2/day2task.yml /home/sushmanaa/project3
+  487  su - sushmanaa
+  488  su - raghav
+  489  su - venkat
+  490  su - raghav
+  491  su - susritha
+  492  su - venkat
+  493  su - raghav
+  494  su - priya
+  495  su - anviksha
+  496  su - raghav
+  497  su - priya
+  498  su - venkat
+  499  su - udit
+  500  su - gvs
+  501  su - venkat
+  502  su - gvs
+  503  su - gvs
+  504  su - despair
+  505  su - despair 
+  506  su - raghav
+  507  su - anviksha
+  508  su - trial
+  509  su - priya
+  510  su - raghav
+  511  su - trial
+  512  su - venkat
+  513  su - trial
+  514  su - raghav
+  515  su - trial
+  516  ansible servera -m setup > fact_x.txt
+  517  su - rohit
+  518  cp /home/rohit/project1/
+  519  ls
+  520  su - rohit
+  521  ls
+  522  su -venkat
+  523  su - venkat
+  524  cp /home/venkat/project3/control_block_rescue_always_ex2.yml  /home/rohit/project3/project3/
+  525  cp /home/venkat/project3/control_block_rescue_ex1.yml  /home/rohit/project3/project3/
+  526  cp /home/venkat/project3/control_block_rescue_ex1.yml.yml  /home/rohit/project3/project3/
+  527  su - venkat
+  528  cp /home/rohit/
+  529  cp /home/rohit/project1/inventory /home/rohit/project3/project3/
+  530  cp /home/rohit/project1/ansible.cfg /home/rohit/project3/project3/
+  531  su - abhi
+  532  su - abhi
+  533  cd /home/venkat/project3/
+  534  ls
+  535  cat control_tags_ex1.yml 
+  536  su - abhi
+  537  cd /home/venkat/project3/
+  538  cat control_tags_ex1.yml 
+  539  su - abhi
+  540  su - Adarsh 
+  541  su - udit
+  542  logout
+  543  su - raghav
+  544  ssh servera
+  545  su - raghav
+  546  su - venkat
+  547  su - susritha
+  548  su - sushmaana
+  549  su - sushmanaa
+  550  su - susritha
+  551  su - sushmanaa
+  552  mkdir project3
+  553  cd project3/
+  554  ls
+  555  vi hostinfo.yml
+  556  vi hostinfo.yaml
+  557  ansible serverb -m setup >facts.txt
+  558  ls
+  559  cd facts.txt
+  560  su - anviksha
+  561  su - venkat 
+  562  logout
+  563  cd project3/
+  564  ll
+  565  cd ..
+  566  su - udit
+  567  logout
+  568  ls
+  569  su - priya
+  570  su - gvs
+  571  su - venkat
+  572  su - gvs
+  573  su - raghav
+  574  ls
+  575  su - anviksha 
+  576  su - Venkat
+  577  su - venkat
+  578  su - anviksha
+  579  ls
+  580  su - Venkat
+  581  su - venkat
+  582  su - raghab
+  583  su - raghav
+  584  su - rohit
+  585  cp /home/rohit/project1/inventory /home/rohit/project4/
+  586  cp /home/rohit/project1/ansible.cfg /home/rohit/project4/
+  587  su - priya
+  588  su - venkat
+  589  su - anviksha 
+  590  su - raghav
+  591  su - priya
+  592  su - udit
+  593  su - abhi
+  594  su - shasd
+  595  su - sushmanaa
+  596  su - rohit
+  597  su - venkat
+  598  su - su
+  599  su - raghav
+  600  su - sushmanaa
+  601  su - Adarsh 
+  602  su - trial
+  603  su - gvs
+  604  su - despair 
+  605  su - abhi
+  606  tree /home/
+  607  vim /etc/ansible/ansible.cfg 
+  608  su - venkat 
+  609  su - anviksha
+  610  ---
+  611  - name: install packages
+  612    hosts: dev,test,prod
+  613    remote_user: anviksha
+  614    become: yes
+  615    tasks:
+  616      - name: Install php,mariadb
+  617        yum:
+  618          name:
+  619            - php
+  620            - mariadb
+  621          state: latest
+  622  - name: install rpm development tools
+  623    hosts: dev
+  624    remote_user: anviksha
+  625    become: yes
+  626    tasks:
+  627      - name: install dev tools
+  628        yum:
+  629          name: "@Development tools"
+  630          state: present
+  631  - name: update all packages
+  632    hosts: dev
+  633    remote_user: anviksha
+  634    become: yes
+  635    tasks:
+  636      - name: update all pacakges
+  637        yum:
+  638          name: '*'
+  639          state: latest
+  640  ...
+  641  su - anviksha
+  642  su - sushmanaa
+  643  su - susritha
+  644  su - abhi
+  645  cd /home/venkat/
+  646  ls
+  647  cd project4/
+  648  ls
+  649  cat gather_smart.yml 
+  650  cat facts_delegate.yml 
+  651  ls
+  652  cat mod_get_url_local_ex1.yml 
+  653  su - abhi
+  654  su - raghav
+  655  su - venkat
+  656  su - anviksha
+  657  su - abhi
+  658  su - raghav
+  659  su - priya
+  660  su -trial
+  661  su - trial
+  662  su - gvs
+  663  su - Adarsh 
+  664  su - venkat
+  665  su - sushmanaa
+  666  su - despair 
+  667  su - sushmanaa
+  668  su -desp
+  669  su - despair 
+  670  su - gvs
+  671  su - venkat 
+  672  su - sushmanaa
+  673  su - venkat
+  674  su - shasd
+  675  vi /.vimrc
+  676  su - shasd
+  677  su - Adarsh 
+  678  su - venkat 
+  679  su - susritha
+  680  su - Adarsh 
+  681  su - trial
+  682  su - venkat
+  683  su - trial
+  684  su - abhi
+  685  su - anviksha
+  686  su - raghav
+  687  history
+  688  su - priya
+  689  su - trial
+  690  su - venkat
+  691  su - trial
+  692  su - anviksha
+  693  su - abhi
+  694  su - despair
+  695  su - susritha
+  696  su - venkat
+  697  su - gvs
+  698  cp /home/venkat/project4/hosts.j2 /home/rohit/project4/
+  699  cp /home/venkat/project4/createusers.yml /home/rohit/project4/
+  700  cp /home/venkat/project4/create_hosts_file.yml /home/rohit/project4/
+  701  cp /home/venkat/project4/inventory  /home/rohit/project4
+  702  su - rohit
+  703  su - trial
+  704  su - venkat
+  705  su - trial
+  706  su - venkat
+  707  su - trial
+  708  su - abhi
+  709  su - anviksha
+  710  su - trial
+  711  su - gvs
+  712  su - trial
+  713  su - priya
+  714  su - abhi
+  715  su - gvs
+  716  su - trial
+  717  su - venkat
+  718  su - venkat 
+  719  su - anviksha 
+  720  su - Adarsh 
+  721  su - raghav
+  722  su - trial
+  723  su - venkat
+  724  su - trial
+  725  su - venkat
+  726  su - trial
+  727  su - venkat
+  728  su - trial
+  729  su - despair
+  730  su - venkat 
+  731  su - priya
+  732  w
+  733  tree 
+  734  tree /home/
+  735  su - venkat
+  736  su - venkat
+  737  su - susritha
+  738  su - venkat
+  739  su - susritha
+  740  su - priya
+  741  su - susritha
+  742  su - trial
+  743  su - abhi
+  744  su - venkat
+  745  su - despair 
+  746  su - venkat
+  747  logout
+  748  su - venkat 
+  749  yum install rhel-system-roles -y
+  750  su - venkat ka
+  751  su - venkat 
+  752  su - des
+  753  su - despair 
+  754  yum install rhel-system-roles
+  755  su - despair 
+  756  ls
+  757  zip -r ansible_4_day_updated.zip /home/despair/
+  758  ls
+  759  su - susritha
+  760  su - venkat
+  761  su - anviksha
+  762  ssh despair@192.168.1.11
+  763  ssh despair@169.254.156.26
+  764  ssh despair@169.254.121.206
+  765  ls
+  766  vim /etc/ssh/sshd_config 
+  767  ls
+  768  cp ansible_4_day_updated.zip /home/despair/
+  769  cd /home/despair/
+  770  ls
+  771  ls-l
+  772  ls -l
+  773  chown despair. ansible_4_day_updated.zip 
+  774  ls -l
+  775  git clone https://github.com/karanpratap/ansible-training-cisco.git
+  776  ls
+  777  cp -r ansible assignment2/ project* ansible-training-cisco/
+  778  ls
+  779  rm ansible_4_day_updated.zip 
+  780  ls
+  781  ls -l
+  782  ls -l | wc -l
+  783  cd ansible-training-cisco/
+  784  ls -l | wc -l
+  785  ls
+  786  git status 
+  787  git add .
+  788  git status 
+  789  git commit -m "Added files from practice server"
+  790  git push
+  791  cd ..
+  792  ls
+  793  rm -r ansible assignment2/ project*
+  794  y
+  795  ls
+  796  rm -r project3/ project5 project5_roles/
+  797  y
+  798  ls
+  799  cd 
+  800  cd -
+  801  ls
+  802  cd ansible-training-cisco/
+  803  ls
+  804  cd ..
+  805  ls
+  806  cd -
+  807  cat README.md 
+  808  vim README.md
+  809  git add README.md 
+  810  git commit -m "README updated to reflect precise training duration"
+  811  git config --global user.name despair
+  812  git push
+  813  su - despair 
+  814  systemctl enable --now cockpit.socket
+  815  su - despair 
+  816  cp /home/venkat/project4/webserver.conf.j2 /home/despair/project5/
+  817  cd /home/despair/project5/
+  818  ls -l
+  819  chown despair. webserver.conf.j2 
+  820  ls -l
+  821  su - despair 
+  822  cd /home/venkat/
+  823  ls
+  824  cd project4/
+  825  ls
+  826  cd roles/
+  827  ls
+  828  cp requirement.yml /home/despair/project5_roles/
+  829  cd /home/despair/project5_roles/
+  830  chown despair. requirement.yml 
+  831  su -
+  832  w
+  833  tree /home/
+  834  su - venkat
+  835  su - susritha
+  836  su - sushmanaa
+  837  su - raghav
+  838  su - rohit
+  839  su - anviksha 
+  840  su - priya
+  841  ;s
+  842  ls
+  843  su - despair 
+  844  su - rohit 
+  845  su - abhi
+  846  su - venkat 
+  847  su - susritha 
+  848  su -A
+  849  su - A
+  850  su - Adarsh 
+  851  su - rohit
+  852  su - venkat
+  853  su - udit 
+  854  su - venkat 
+  855  su - udit
+  856  logout
+  857  su - trial
+  858  yum install rhel-system-roles -y
+  859  su - trial
+  860  su - abhi
+  861  cd /home/venkat/
+  862  ls
+  863  cd project4/
+  864  ls
+  865  cat hosts.j2 
+  866  mkdir /home/abhi/project4_venkat
+  867  cp * /home/abhi/project4_venkat/
+  868  cp -r * /home/abhi/project4_venkat/
+  869  yy
+  870  y
+  871  su - abhi
+  872  pwd
+  873  cp * /home/abhi/project4_venkat/
+  874  y
+  875  su - abhi
+  876  cd /home/rohit/
+  877  ls
+  878  cd project4/
+  879  ls
+  880  cat create_hosts_file.yml 
+  881  :q
+  882  cat hosts.j2 
+  883  su - venkat
+  884  su - gvs
+  885  ld
+  886  ls
+  887  su - trial
+  888  ls
+  889  vim hwreport.txt 
+  890  logout
+  891  su - raghav
+  892  cat hwreport.txt 
+  893  logout
+  894  cat hwreport.txt 
+  895  logout
+  896  cat hwreport.txt 
+  897  mv hwreport.txt hwreport_backup.txt
+  898  logout
+  899  cat hwreport
+  900  cat hwreport.txt 
+  901  vim hwreport
+  902  logout
+  903  ls
+  904  logout
+  905  cat hwreport.txt 
+  906  rm -rf hwreport.txt 
+  907  logout
+  908  cat hwreport.txt 
+  909  rm -rf hwreport.txt 
+  910  logout
+  911  cat hwreport.txt 
+  912  logout
+  913  ls
+  914  cat hwreport.txt 
+  915  ansible-doc lineinfile
+  916  vim hwreport.txt 
+  917  su - raghav
+  918  su - priya
+  919  su -raghav
+  920  su - raghav
+  921  su - anviksha
+  922  pwd
+  923  cd ..
+  924  cd home/
+  925  ll
+  926  cd Adarsh/
+  927  ll
+  928  cd ..
+  929  su - Adarsh 
+  930  su - anviksha 
+  931  exit
+  932  su - shasd
+  933  exit
+  934  ll
+  935  sh prep_lab_workstation.sh 
+  936  id anviksha
+  937  su - laxmi
+  938  su - lakshmi
+  939  ll
+  940  rm -f prep_lab_workstation.sh 
+  941  w
+  942  ll
+  943  sh prep_lab_workstation.sh 
+  944  id lakshmi
+  945  tail /etc/sudoers
+  946  su - lakshmi 
+  947  ll
+  948  rm -f prep_lab_workstation.sh 
+  949  su - lakshmi
+  950  su - student
+  951  sh prep_lab_workstation.sh 
+  952  su - lakshmi
+  953  ll
+  954  vim prep_lab_workstation.sh 
+  955  sh prep_lab_workstation.sh 
+  956  su - lakshmi 
+  957  su - student
+  958  vim prep_lab_workstation.sh 
+  959  sh prep_lab_workstation.sh 
+  960  su - lakshmi
+  961  vim prep_lab_workstation.sh 
+  962  sh prep_lab_workstation.sh 
+  963  su - lakshmi
+  964  rm -f prep_lab_workstation.sh 
+  965  su - abhi
+  966  ls -l /home/student/.ssh/
+  967  ls -l /home/devops/
+  968  ls -l .ssh/
+  969  ll
+  970  ll
+  971  ls -l /etc/rht 
+  972  cat /etc/rht 
+  973  cat /etc/.rht_authorized_keys 
+  974  su - student
+  975  ll
+  976  su - despair
+  977  su - de
+  978  su - despair 
+  979  cd /home/de
+  980  cd /home/despair/
+  981  chown despair. ansible-training-cisco/
+  982  ls -l
+  983  su - despair 
+  984  su - despair 
+  985  su -despa
+  986  su - despair 
+  987  cd /home/despair/
+  988  ls
+  989  cd ansible-training-cisco/
+  990  ls
+  991  ls -l
+  992  git add assignment3/ assignment4/ file.setup 
+  993  git commit 'Assignment 3 and assignment 4 check in'
+  994  git commit -m 'Assignment 3 and assignment 4 check in'
+  995  git push
+  996  su - despair
+  997  su - trial
+  998  su - venkat
+  999  ll
+ 1000  w
+ 1001  su - despair 
+ 1002  cd /home/despair/
+ 1003  ls
+ 1004  cd ansible-training-cisco/
+ 1005  ls
+ 1006  git add project5_partition/ assignment4/hwreport.yml 
+ 1007  git commit -m "Partition creation ansible project check-in"
+ 1008  git push
+ 1009  git status 
+ 1010  history 
+ 1011  history > commands.txt
